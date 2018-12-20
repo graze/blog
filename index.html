@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<section class="section">
+  <div class="container">
+  {% for post in site.posts %}
+    <div class="column is-8 is-offset-2">
+      <div class="card">
+        <div class="card-content has-text-centered">
+          <p class="title">{{post.title}}</p>
+          <p class="subtitle is-6 article-subtitle">
+            <a href="#">{{post.author}}</a> on {{ post.date | date: '%B %d, %Y' }}
+          </p>
+        </div>
+
+        <div class="card-content">
+          <div class="content">
+            {{post.content}}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+<section>
