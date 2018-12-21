@@ -9,7 +9,8 @@ layout: default
           <div class="card-content has-text-centered">
             <p class="title"><a href="{{page.url}}">{{page.title}}</a></p>
             <p class="subtitle is-6 article-subtitle">
-              <a href="#">{{page.author}}</a> on {{ page.date | date: '%B %d, %Y' }}
+              {% assign author = site.authors | where: 'slug', page.author | first %}
+              <a href="{{ '/authors/' | append: author.slug | relative_url }}">{{author.name}}</a> on {{ page.date | date: '%B %d, %Y' }}
             </p>
           </div>
 
