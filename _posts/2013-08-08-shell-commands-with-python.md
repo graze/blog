@@ -1,7 +1,7 @@
 ---
 title: "shell commands with python"
 date: 2013-08-08T10:00:00.000Z
-author: graze tech
+author: graze-tech
 ---
 
 ##cmd_utils - Easier Shell Commands with Python##

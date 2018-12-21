@@ -1,7 +1,7 @@
 ---
 title: "My first week at graze"
 date: 2017-11-14T10:36:35.000Z
-author: Rokas Petraitis
+author: rokas-petraitis
 ---
 
 Hello, my names is Rokas and I am the newest member of the graze web team.

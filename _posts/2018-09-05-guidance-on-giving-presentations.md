@@ -1,6 +1,6 @@
 ---
 title: "Guidance on giving presentations"
-author: Burhan Ali
+author: burhan-ali
 tags: [presentations, snackademies]
 ---
 

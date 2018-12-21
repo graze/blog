@@ -1,7 +1,7 @@
 ---
 title: "Silex Routing and Trailing Slashes"
 date: 2015-11-27T14:48:08.000Z
-author: Sam Parkinson
+author: sam-parkinson
 ---
 
 Silex treats a route like `/profile/1` as a different resource to `/profile/1/`, nothing wrong with that.
