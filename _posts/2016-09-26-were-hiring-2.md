@@ -1,6 +1,7 @@
 ---
 title: "We're hiring!"
 date: 2016-09-26T14:12:39.000Z
+tags: recruitment
 ---
 
 We're hiring for a number of entry-level positions in the graze tech team!

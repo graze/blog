@@ -1,6 +1,7 @@
 ---
 title: "Pistachio: From style guide to front end framework"
 date: 2016-08-12T13:45:00.000Z
+tags: ux-design, ui-design, front-end
 ---
 
 Grazeâ€™s Web team has grown enormously over the last three years. As front-end teams become larger, the need for a pattern library becomes increasingly clearer. We realise that now, but our initial plan was somewhat different.
