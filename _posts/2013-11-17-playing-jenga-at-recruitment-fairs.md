@@ -1,6 +1,7 @@
 ---
 title: "playing jenga at recruitment fairs"
 date: 2013-11-17T00:00:00.000Z
+author: graze tech
 ---
 
 The graze tech team is growing at a remarkable rate. Our recent launch in the USA, along with our new kids and breakfast boxes mean we have a lot more demand on our time. So we're looking for hot tech talent!

@@ -1,6 +1,7 @@
 ---
 title: "our favourite animated gifs"
 date: 2014-04-11T13:41:40.000Z
+author: graze tech
 ---
 
 Here in the graze tech team we use [hipchat](https://www.hipchat.com/) to share interesting articles and engage in hilarious banter. We are big fans of using animated gifs in response to stupid questions and to settle arguments. Here are a selection of our favorites.

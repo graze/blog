@@ -1,7 +1,8 @@
 ---
 title: "AWS hack day with Rackspace"
 date: 2017-03-06T09:43:25.000Z
-tags: aws, hackday, rackspace
+tags: [aws, hackday, rackspace]
+author: graze tech
 ---
 
 We partner with Rackspace to manage our production infrastructure on AWS. We've been running regular hack days recently and thought it'd be good to take a day out of shipping code to work with Rackspace on a hack day to play with some of the new beta tools that AWS released in December.

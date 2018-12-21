@@ -1,6 +1,7 @@
 ---
 title: "PHP London Meetup"
 date: 2015-08-07T15:33:05.000Z
+author: Simon Plenderleith
 ---
 
 We were delighted to be able to sponsor last night's [PHP London meetup](http://www.meetup.com/phplondon/events/224100230/). There were free drinks and snacks-a-plenty, plus an excellent talk from Sam Burns on 'Choosing and Using a REST Framework'.

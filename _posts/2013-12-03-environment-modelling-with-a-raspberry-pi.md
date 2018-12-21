@@ -1,6 +1,7 @@
 ---
 title: "environment modelling with a raspberry pi"
 date: 2013-12-03T15:50:00.000Z
+author: graze tech
 ---
 
 Every graze site has a comms room for the local servers (DC slaves, DB slaves, local webservers/fileshares, etc.) and for the networking gear. As well as monitoring the devices in the comms room we need to monitor the health of the comms room itself.

@@ -1,6 +1,7 @@
 ---
 title: "My First Week at graze"
 date: 2016-09-21T10:54:01.000Z
+author: graze tech
 ---
 
 Hello, Iâ€™m James. I am the newest member of the graze technology team. I graduated from Durham University in 2013 with a degree in Computer Science. Before working at graze I was a web and iOS developer at a startup in London. I particularly enjoy working with frameworks such as  [React JS](https://facebook.github.io/react) and [Express](https://expressjs.com ), and building â€˜dynamicâ€™ static sites with [Middleman](https://middlemanapp.com/). 

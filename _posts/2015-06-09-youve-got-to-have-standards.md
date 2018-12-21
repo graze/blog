@@ -1,6 +1,7 @@
 ---
 title: "You've got to have standards"
 date: 2015-06-09T15:36:49.000Z
+author: graze tech
 ---
 
 > Browsers are the most hostile software development environment imaginable.

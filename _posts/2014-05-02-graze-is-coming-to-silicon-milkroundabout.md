@@ -1,6 +1,7 @@
 ---
 title: "graze is coming to silicon milkroundabout"
 date: 2014-05-02T08:59:18.000Z
+author: graze tech
 ---
 
 We're looking forward to [Silicon Milkroundabout](http://www.siliconmilkroundabout.com/events/next) next week and hoping lots of you come along to chat to us.

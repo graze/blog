@@ -1,6 +1,7 @@
 ---
 title: "testing docker images with bats"
 date: 2016-03-04T17:22:03.000Z
+author: Sam Parkinson
 ---
 
 The [Bash Automated Testing System](https://github.com/sstephenson/bats) (Bats) is a testing framework for Bash I came across recently, in use by the amazing [Apline Linux Docker images](https://github.com/gliderlabs/docker-alpine/tree/master/test).

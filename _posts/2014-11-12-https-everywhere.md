@@ -1,7 +1,8 @@
 ---
 title: "secure snacking â€“ switching to https everywhere"
 date: 2014-11-12T09:59:31.000Z
-tags: security
+tags: [security]
+author: graze tech
 ---
 
 As a pioneering online business, we need to lead the way in terms of ensuring our user's privacy and protecting their data.

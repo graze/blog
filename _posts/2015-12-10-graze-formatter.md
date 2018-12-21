@@ -1,6 +1,7 @@
 ---
 title: "graze formatter"
 date: 2015-12-10T10:39:00.000Z
+author: Sam Parkinson
 ---
 
 Yesterday we open-sourced a new library, [graze/formatter](https://github.com/graze/formatter).

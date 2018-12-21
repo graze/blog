@@ -1,6 +1,7 @@
 ---
 title: "counting electric sheep"
 date: 2014-12-19T14:32:02.000Z
+author: John Smith
 ---
 
 ![box former][boxformer]
