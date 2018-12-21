@@ -1,3 +1,7 @@
+---
+title: "Data experts descend on London for graze.com #geektogether"
+---
+
 We're really excited about the [#geekTogether event](http://tech.graze.com/2014/07/22/the-graze-data-geektogether/) that we're hosting in London tonight and wanted to share the official press release - see you tonight!
 
 ---

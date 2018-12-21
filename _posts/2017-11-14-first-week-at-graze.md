@@ -1,3 +1,7 @@
+---
+title: "My first week at graze"
+---
+
 Hello, my names is Rokas and I am the newest member of the graze web team.
 
 ![Rokas](/content/images/2017/11/20171010_113958.jpg)

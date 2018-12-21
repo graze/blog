@@ -1,3 +1,7 @@
+---
+title: "Silicon on Thames"
+---
+
 Looks like the secret is out...
 
 **The Evening Standard**

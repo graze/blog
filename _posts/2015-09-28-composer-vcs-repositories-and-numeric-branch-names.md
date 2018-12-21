@@ -1,3 +1,7 @@
+---
+title: "composer, alternative repositories and numeric branch names"
+---
+
 Sometimes with composer you'll want to point to a repository other than [packagist](https://packagist.org). At graze, a common use of this is to include a private project in an application.
 
 Composer facilitates this through the "repositories" directive -

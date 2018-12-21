@@ -1,3 +1,7 @@
+---
+title: "hacker time"
+---
+
 ##Standing on the shoulders of giants##
 
 So who knew... it's all thanks to 3M.  In 1948 the Minnesota Mining and Manufacturing Company introduced their 15

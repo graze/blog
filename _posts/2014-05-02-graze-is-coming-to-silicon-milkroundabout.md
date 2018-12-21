@@ -1,3 +1,7 @@
+---
+title: "graze is coming to silicon milkroundabout"
+---
+
 We're looking forward to [Silicon Milkroundabout](http://www.siliconmilkroundabout.com/events/next) next week and hoping lots of you come along to chat to us.
 
 It's at the Old Truman Brewery in Shoreditch, London on the 10-11 May. If you're looking to begin your career in a great, and growing tech team, or if you're looking for a new challenge, then [come along for a chat.](http://www.siliconmilkroundabout.com/events/next)

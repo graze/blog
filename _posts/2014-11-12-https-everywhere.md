@@ -1,3 +1,7 @@
+---
+title: "secure snacking â€“ switching to https everywhere"
+---
+
 As a pioneering online business, we need to lead the way in terms of ensuring our user's privacy and protecting their data.
 
 We enabled encryption for all traffic to the [graze.com](https://graze.com) domain back in July. With this update we also turned on the [`Secure` and `HttpOnly` flags][1] for our authentication cookies, and will be doing the same for the rest in the near future.

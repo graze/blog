@@ -1,3 +1,7 @@
+---
+title: "environment modelling with a raspberry pi"
+---
+
 Every graze site has a comms room for the local servers (DC slaves, DB slaves, local webservers/fileshares, etc.) and for the networking gear. As well as monitoring the devices in the comms room we need to monitor the health of the comms room itself.
 
 To achieve this we have previously used the APC environmental monitoring solution: **Netbotz**.

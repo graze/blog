@@ -1,3 +1,7 @@
+---
+title: "the graze data #geekTogether"
+---
+
 Here at graze we are obsessed with continuously evolving, we use data in innovative ways to offer customers the best products and a unique customer experience. One of the data teamâ€™s New Yearâ€™s resolutions was to meet other like-minded data driven companies and learn how they use data to better understand the needs of their customers. We wanted to learn what data technologies they use and the role that data teams have within other companies. 
 
 As soon as we started reaching out, it became clear that there was an overwhelming amount of appetite for knowledge and experience sharing in the field of data - not just successes but more interestingly, challenges and mistakes. We wanted to create a forum for sharing and so the graze  #geekTogether was born, the first of which will take place on Wednesday 30th of July. The event has been received with so much enthusiasm that it has been over-subscribed within the first 2 weeks of announcement. We expect over 100 people to be attending.

@@ -1,3 +1,7 @@
+---
+title: "testing at graze"
+---
+
 Inspired by AirBnB's [Testing at AirBnB](http://nerds.airbnb.com/testing-at-airbnb) article, I thought I would share some of what we do at graze to test our code before it makes it into production and what we're moving towards.
 
 At graze we are currently entering into a period of time where testing is becoming ever more important with a growing team and international business. This has caused us to review our approach to testing and introduce new ways and processes for managing our code to decrease the likelihood of new code breaking in production.

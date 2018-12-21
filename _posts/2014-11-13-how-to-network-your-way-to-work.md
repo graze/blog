@@ -1,3 +1,7 @@
+---
+title: "How to network your way to work"
+---
+
 ### One candidate's experience of Silicon Milkroundabout...
 
 In todayâ€™s post, Razel Villanueva, Interaction Designer, explains how she networked her way into graze at Silicon Milkroundabout May 2014â€¦

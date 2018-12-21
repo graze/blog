@@ -1,3 +1,7 @@
+---
+title: "a history of graze, by google"
+---
+
 Being the fast growth exciting technology company that we are, Google wanted to feature us as a case study for Apps for Work... who were we to argue? In doing so they helped us create this amazing infographic that shows some of the key tech landmarks in our history. Thanks Google!
 
 ![Google's graze infographic](http://2.bp.blogspot.com/-KgYqVzvxXbw/VC6Bw3zcd_I/AAAAAAAAC0Q/r9_4TV5l2IU/s1600/how-graze-grew-infographic-2.png)

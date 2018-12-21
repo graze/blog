@@ -1,3 +1,7 @@
+---
+title: "fresh blood"
+---
+
 I'm really happy to announce the arrival of 2 new faces in the tech team here at graze.
 
 ##Csaba##

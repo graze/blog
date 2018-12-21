@@ -1,3 +1,7 @@
+---
+title: "The #geekTogether - takeaways"
+---
+
 If you're interested in how the #geekTogether went then you might want to read Mica's review of it, guest blogging at IDG:
 
 

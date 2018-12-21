@@ -1,3 +1,7 @@
+---
+title: "Unit testing static calls without refactoring the world in PHP"
+---
+
 Imagine you have a situation like this in some legacy code:
 
 ```prettyprint lang-php

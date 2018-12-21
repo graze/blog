@@ -1,3 +1,7 @@
+---
+title: "How to get yourself a job at Silicon Milkroundabout"
+---
+
 # A recruiterâ€™s tips
 
 With Silicon Milkroundabout (SMR) approaching, Hannah Manku, an experienced recruiter here at graze, describes what it is that recruiters remember at networking events and why â€¦

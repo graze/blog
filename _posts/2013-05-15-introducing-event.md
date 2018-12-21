@@ -1,3 +1,7 @@
+---
+title: "introducing event"
+---
+
 Today we're proud to announce our first open source library, [Event][event]. We're releasing it as part of our increased efforts to contribute to the open tech community. The library once lived its life as part of our internal systems, but making the source public was a no-brainer.
 
 Event itself is a really simple synchronous <abbr title="Publish/Subscribe">pub/sub</abbr> library for PHP. If you're unfamiliar with pub/sub, it's a really non-intrusive way to listen to emitted events or messages. Event listeners subscribe in advance to the event names and are invoked when the events are emitted.

@@ -1,3 +1,7 @@
+---
+title: "Go at graze"
+---
+
 <img src="https://camo.githubusercontent.com/98ed65187a84ecf897273d9fa18118ce45845057/68747470733a2f2f7261772e6769746875622e636f6d2f676f6c616e672d73616d706c65732f676f706865722d766563746f722f6d61737465722f676f706865722e706e67" width="200" align="right" alt="Golang mascot">
 
 At graze we have historically been predominantly a user of the [LAMP](https://en.wikipedia.org/wiki/LAMP_(software_bundle)) stack but on occasion we venture away from this and work with other technologies when we have a project which has specific requirements or we are in a position to experiment. [Go](https://golang.org/) is an example of one of those technologies. We have been using it in production on our primary systems for almost six months and in a few small housekeeping things prior to that. In this post we will talk a little bit about how and why we are using Go at graze.

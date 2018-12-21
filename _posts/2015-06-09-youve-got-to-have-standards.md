@@ -1,3 +1,7 @@
+---
+title: "You've got to have standards"
+---
+
 > Browsers are the most hostile software development environment imaginable.
 > 
 > -- <cite>[Douglas Crockford](http://en.wikipedia.org/wiki/Douglas_Crockford)</cite>

@@ -1,3 +1,7 @@
+---
+title: "Pistachio: From style guide to front end framework"
+---
+
 Grazeâ€™s Web team has grown enormously over the last three years. As front-end teams become larger, the need for a pattern library becomes increasingly clearer. We realise that now, but our initial plan was somewhat different.
 
 In June 2015 we believed that the solution to our design woes was a web style guide; A document that would help developers and key stakeholders throughout the business understand *how* and *why* we use certain UI elements across the website. We started by auditing the website; looking for style patterns and uncover any inconsistencies. It didnâ€™t take too long to establish that there was little consistency across our website and this was down to the fact that our development environment and processes did very little to encourage it.

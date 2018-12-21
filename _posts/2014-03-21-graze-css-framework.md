@@ -1,3 +1,7 @@
+---
+title: "the graze css framework"
+---
+
 In the graze web team we pride ourselves on being able to rapidly develop new features in response to our customer and business needs but that rapid pace of development has sometimes come with a bit of associated baggage.
 
 Graze used to have a separate mobile site that over time began to feel neglected and lack some of the features of the main site which just wasn't good enough for us because our proportion of mobile users is very high and will only increase. There was also a concern about the consistency of the graze user experience because we were often creating components in isolation with a bespoke design each time. This led to an inefficient use of CSS, bloated CSS libraries and an inconsistent user experience. We also began to move towards a responsive website and retro-fitting responsiveness onto our existing site became problematic.

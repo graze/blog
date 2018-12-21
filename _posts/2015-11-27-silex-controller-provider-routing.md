@@ -1,3 +1,7 @@
+---
+title: "Silex Routing and Trailing Slashes"
+---
+
 Silex treats a route like `/profile/1` as a different resource to `/profile/1/`, nothing wrong with that.
 
 However, when using [controller providers](http://silex.sensiolabs.org/doc/providers.html#controller-providers), root level routes for that controller are mounted with a trailing slash, which leads to potentially undesired behaviour.

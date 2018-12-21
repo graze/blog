@@ -1,3 +1,7 @@
+---
+title: "counting electric sheep"
+---
+
 ![box former][boxformer]
 
 Mulled wine, log fires, Christmas carols... nothing can say "Merry Christmas!" quite like a box forming machine. And we have several heavily modified versions - thanks engineering team, season's greetings. They suck up bits of cardboard and spit out the graze boxes we know and love. **How many boxes do they make?** That is what I need to find out. There will be counting, there will be electric(ity). There will not be sheep.

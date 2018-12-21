@@ -1,3 +1,7 @@
+---
+title: "AWS hack day with Rackspace"
+---
+
 We partner with Rackspace to manage our production infrastructure on AWS. We've been running regular hack days recently and thought it'd be good to take a day out of shipping code to work with Rackspace on a hack day to play with some of the new beta tools that AWS released in December.
 
 The goal of the hack day was to become more familiar with working with AWS in the hope that we can use it more in our projects. We were primarily using AWS technologies [Polly](https://aws.amazon.com/polly), [Lex](https://aws.amazon.com/lex), [Rekognition](https://aws.amazon.com/rekognition), and [Athena](https://aws.amazon.com/athena), as well as supporting services such as [DynamoDB](https://aws.amazon.com/dynamodb), [Lambda](https://aws.amazon.com/lambda), and [S3](https://aws.amazon.com/s3), and the results were astounding. In seven hours, we saw teams complete five projects. Here's a summary of the day:

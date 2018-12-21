@@ -1,3 +1,7 @@
+---
+title: "my first week in graze tech"
+---
+
 
 Hi there, I'm Sam, the latest graduate hire and part of the web team here at graze. I'm a computer science graduate from Brunel University and have previously worked with PHP when developing a couple of side projects outside of my studies.
 

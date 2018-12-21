@@ -1,3 +1,7 @@
+---
+title: "Python as a PHP Developer"
+---
+
 The majority of the code Iâ€™ve written in my 3 and a half years of professional software development has been PHP. Recently I built my first Python web application for a REST JSON API. I thought Iâ€™d share my first experience of Python from the perspective of someone whoâ€™s predominantly been a PHP developer.
 
 - Decorators are awesome! They do seem easy to abuse though.

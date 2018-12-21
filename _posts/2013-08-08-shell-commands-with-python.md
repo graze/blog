@@ -1,3 +1,7 @@
+---
+title: "shell commands with python"
+---
+
 ##cmd_utils - Easier Shell Commands with Python##
 Here at Graze we use puppet to handle all our server configuration, but we still find plenty of times when we need to run scripts outside of puppet. Whether it's for deploying code, running those one off commands or running one command over every server to check something there's always the need for scripting shell commands.
 

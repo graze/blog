@@ -1,3 +1,7 @@
+---
+title: "behind the scenes at graze"
+---
+
 graze has always been a technology company. We've custom built world-class technology that drives our logistics operation to get graze boxes efficiently from the graze kitchen to the customer and we would like to show it off.
 
 We want to inspire and excite the technologists of the future and show you what we've built, how we've built it and why we continue to be successful.

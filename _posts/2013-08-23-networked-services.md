@@ -1,3 +1,7 @@
+---
+title: "networked services"
+---
+
 ##Services over a physical or virtual network interface##
 We discussed in a [previous post](/2013/07/01/service-oriented-communication) about our ongoing efforts to move some core systems out into their own services. This will help us scale our more memory and CPU intensive processes as we need, but relying on remote systems doesn't come without its own problems. The most vulnerable part of networked architecture is the network itself. As software engineers, we should build our systems in a way that can deal with any problems that can arise during runtime. This is usually done by simply throwing exceptions or passing errors through callbacks, but when you're working with critical systems, this is not always the answer.
 

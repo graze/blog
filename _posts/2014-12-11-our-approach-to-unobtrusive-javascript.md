@@ -1,3 +1,7 @@
+---
+title: "Our approach to unobtrusive javascript"
+---
+
 > Unobtrusive JavaScript is a way of writing JavaScript so that if for any reason your JavaScript is not working correctly your web page should still perform its core function.
 
 [![](/content/images/2014/12/unobtrusive-javascript.gif)](http://unobtrusify.com/)

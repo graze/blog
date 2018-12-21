@@ -1,3 +1,7 @@
+---
+title: "PHP London Meetup"
+---
+
 We were delighted to be able to sponsor last night's [PHP London meetup](http://www.meetup.com/phplondon/events/224100230/). There were free drinks and snacks-a-plenty, plus an excellent talk from Sam Burns on 'Choosing and Using a REST Framework'.
 
 > REST APIs are increasingly important as the development community moves towards SOA and externalising services, and choosing a framework can seem like a big decision.  Sam Burns explores the REST frameworks available in PHP, and gives tips on decoupling from the framework to facilitate future migrations.

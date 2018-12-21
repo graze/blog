@@ -1,3 +1,7 @@
+---
+title: "service oriented communication"
+---
+
 ##Handling service interoperability##
 SOA (Service Oriented Architecture) is a widely implemented software design pattern, whereby certain areas of a system are separated off into services. It offers many benefits that include the freedom to use the right technologies for the
 job, security through isolation, true separation of concerns, and the ability to easily [scale horizontally][blog-scaling]. There are [plenty][soa-1] [of][soa-2] [articles][soa-3] about SOA as a concept, but choosing exactly how your services communicate with one another is an oft-neglected topic.

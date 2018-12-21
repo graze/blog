@@ -1,3 +1,7 @@
+---
+title: "graze formatter"
+---
+
 Yesterday we open-sourced a new library, [graze/formatter](https://github.com/graze/formatter).
 
 It's a pattern we've used extensively in our web application for more than a year now, and it's no coincidence that we started implementing it during our migration to the twig templating engine.

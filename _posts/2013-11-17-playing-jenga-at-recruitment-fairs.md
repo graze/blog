@@ -1,3 +1,7 @@
+---
+title: "playing jenga at recruitment fairs"
+---
+
 The graze tech team is growing at a remarkable rate. Our recent launch in the USA, along with our new kids and breakfast boxes mean we have a lot more demand on our time. So we're looking for hot tech talent!
 
 graze are investing in the future. We're looking for exceptional technology graduates with a passion for all things tech. We run a code academy and invest in your personal development and training. And as a small company, you get involved in everything. Take a look at our [jobs page](http://graze.com/uk/jobs/tech). Oh, and with free breakfast and Friday beers, you can't go wrong.

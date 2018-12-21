@@ -1,3 +1,7 @@
+---
+title: "Codebar â€“ Naming Things"
+---
+
 We recently hosted a [Codebar event](http://codebar.io/workshops/150) after work at the graze HQ.
 
 The lightning talk was focused on the difficult task of Naming Things.

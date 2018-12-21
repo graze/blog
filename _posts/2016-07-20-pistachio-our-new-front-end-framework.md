@@ -1,3 +1,7 @@
+---
+title: "Pistachio - our new front end framework"
+---
+
 It's an exciting time for the graze web team as we're expanding into new territories such as a [dedicated support site](https://uk.help.graze.com/) and a [more traditional e-commerce site](https://uk.shop.graze.com/). Our [subscription site](https://www.graze.com) is also constantly being iterated and refined to improve the user experience.
 
 We decided to dedicate some time to build a new front end framework and a web style guide to firm up some generally agreed upon but never properly documented front end web practices for use across all of our sites and to establish a baseline for all graze web sites going forwards.

@@ -1,3 +1,7 @@
+---
+title: "Codebar photos"
+---
+
 Last week we hosted a [codebar](http://codebar.io/) event at graze HQ. 
 
 > codebar is a non-profit initiative that facilitates the growth of a diverse tech community by running regular programming workshops.

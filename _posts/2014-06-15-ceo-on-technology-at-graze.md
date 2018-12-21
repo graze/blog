@@ -1,3 +1,7 @@
+---
+title: "ceo on technology at graze"
+---
+
 Take a look around graze HQ in Richmond!
 
 <div class="js-video vimeo widescreen"><iframe src="//player.vimeo.com/video/98728063" width="512" height="288" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
