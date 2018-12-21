@@ -1,6 +1,6 @@
 ---
 title: "Engineering careers at graze"
-author: Andy Worsley
+author: andy-worsley
 tags: [careers]
 ---
 
