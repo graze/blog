@@ -1,5 +1,6 @@
 ---
 title: "supervising the unsupervisable"
+date: 2014-06-17T10:29:12.000Z
 ---
 
 As systems scale and react to growing user numbers, the way you use and transform your data changes. You'll probably build towards a system that works around processing queues, batch processing within daemons and pools of workers. There are many languages that are designed with this in mind, but in reality, we sometimes have to deal with this type of system in languages best suited to simpler tasks.

@@ -1,5 +1,6 @@
 ---
 title: "ceo on technology at graze"
+date: 2014-06-15T10:00:00.000Z
 ---
 
 Take a look around graze HQ in Richmond!

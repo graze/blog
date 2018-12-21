@@ -1,5 +1,6 @@
 ---
 title: "welcome to snack overflow"
+date: 2013-05-13T10:00:00.000Z
 ---
 
 We started graze.com 5 years ago to make healthier snacking easier, anywhere in the UK. For a long time we kept our tech quiet.  When most people browse their favourite snacks they don't want to know about the complex algorithms that choose the contents of their box, nor the home grown logistics and manufacturing systems we have developed.  Nor do they want to know about our deep integration with the Royal Mail or the complex challenges of a slick software development pipeline or of the automated provisioning of diverse infrastructure at AWS.

@@ -1,5 +1,6 @@
 ---
 title: "Pistachio - our new front end framework"
+date: 2016-07-20T14:00:46.000Z
 ---
 
 It's an exciting time for the graze web team as we're expanding into new territories such as a [dedicated support site](https://uk.help.graze.com/) and a [more traditional e-commerce site](https://uk.shop.graze.com/). Our [subscription site](https://www.graze.com) is also constantly being iterated and refined to improve the user experience.

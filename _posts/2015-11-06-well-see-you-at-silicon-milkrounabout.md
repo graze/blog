@@ -1,5 +1,6 @@
 ---
 title: "We'll see you at Silicon Milkroundabout"
+date: 2015-11-06T12:09:27.000Z
 ---
 
 We're looking forward to [Silicon Milkroundabout](http://www.siliconmilkroundabout.com) next weekend. We'll be there on Sunday 15th November at the Old Truman Brewery in Shoreditch, London.

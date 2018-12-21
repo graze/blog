@@ -1,5 +1,6 @@
 ---
 title: "How to get yourself a job at Silicon Milkroundabout"
+date: 2014-11-14T13:47:12.000Z
 ---
 
 # A recruiterâ€™s tips

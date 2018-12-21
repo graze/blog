@@ -1,5 +1,6 @@
 ---
 title: "fresh blood"
+date: 2013-06-07T10:00:00.000Z
 ---
 
 I'm really happy to announce the arrival of 2 new faces in the tech team here at graze.

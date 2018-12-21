@@ -1,5 +1,6 @@
 ---
 title: "Python as a PHP Developer"
+date: 2015-11-24T11:48:32.000Z
 ---
 
 The majority of the code Iâ€™ve written in my 3 and a half years of professional software development has been PHP. Recently I built my first Python web application for a REST JSON API. I thought Iâ€™d share my first experience of Python from the perspective of someone whoâ€™s predominantly been a PHP developer.

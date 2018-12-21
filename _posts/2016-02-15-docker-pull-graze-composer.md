@@ -1,5 +1,6 @@
 ---
 title: "docker pull graze/composer"
+date: 2016-02-15T12:02:11.000Z
 ---
 
 We've just released a public Docker image for [composer](https://getcomposer.org), a popular dependency management tool for PHP.

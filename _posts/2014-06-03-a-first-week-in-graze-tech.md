@@ -1,5 +1,6 @@
 ---
 title: "my first week in graze tech"
+date: 2014-06-03T11:58:08.000Z
 ---
 
 

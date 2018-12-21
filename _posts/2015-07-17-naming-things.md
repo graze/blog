@@ -1,5 +1,6 @@
 ---
 title: "Codebar â€“ Naming Things"
+date: 2015-07-17T14:01:27.000Z
 ---
 
 We recently hosted a [Codebar event](http://codebar.io/workshops/150) after work at the graze HQ.

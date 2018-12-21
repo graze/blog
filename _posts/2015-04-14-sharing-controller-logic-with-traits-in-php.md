@@ -1,5 +1,6 @@
 ---
 title: "Sharing controller logic with traits in PHP"
+date: 2015-04-14T14:24:27.000Z
 ---
 
 There have been a few times I have come across a situation where I need to share some logic between controllers but it hasn't been as clear cut as abstracting that logic out into a library. I've been pondering the best way to tackle this problem and would like to share my thoughts. Take this code as an example, which is similar to some legacy code I came across recently:

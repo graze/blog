@@ -1,5 +1,6 @@
 ---
 title: "How to network your way to work"
+date: 2014-11-13T11:51:09.000Z
 ---
 
 ### One candidate's experience of Silicon Milkroundabout...

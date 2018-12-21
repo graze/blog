@@ -1,5 +1,6 @@
 ---
 title: "The #geekTogether - takeaways"
+date: 2014-08-19T16:28:45.000Z
 ---
 
 If you're interested in how the #geekTogether went then you might want to read Mica's review of it, guest blogging at IDG:

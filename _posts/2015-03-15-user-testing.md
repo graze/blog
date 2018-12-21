@@ -1,5 +1,6 @@
 ---
 title: "User testing"
+date: 2015-03-15T09:42:00.000Z
 ---
 
 {<1>}![User Testing](/content/images/2015/03/Blog-Image-2.png)
