@@ -1,6 +1,6 @@
 ---
 title: "Open Source hack day"
-author: Burhan Ali
+author: burhan-ali
 tags: [hackday, open-source]
 ---
 

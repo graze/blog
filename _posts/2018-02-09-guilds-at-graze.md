@@ -1,6 +1,6 @@
 ---
 title: "Guilds at graze"
-author: Burhan Ali
+author: burhan-ali
 tags: [guilds]
 ---
 

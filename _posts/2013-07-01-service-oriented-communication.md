@@ -1,7 +1,7 @@
 ---
 title: "service oriented communication"
 date: 2013-07-01T10:00:00.000Z
-author: graze tech
+author: graze-tech
 ---
 
 ##Handling service interoperability##

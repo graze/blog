@@ -1,7 +1,7 @@
 ---
 title: "Codebar photos"
 date: 2015-07-24T15:51:34.000Z
-author: Simon Plenderleith
+author: simon-plenderleith
 ---
 
 Last week we hosted a [codebar](http://codebar.io/) event at graze HQ. 

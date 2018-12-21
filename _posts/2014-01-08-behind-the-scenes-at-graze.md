@@ -1,7 +1,7 @@
 ---
 title: "behind the scenes at graze"
 date: 2014-01-08T15:45:00.000Z
-author: graze tech
+author: graze-tech
 ---
 
 graze has always been a technology company. We've custom built world-class technology that drives our logistics operation to get graze boxes efficiently from the graze kitchen to the customer and we would like to show it off.
