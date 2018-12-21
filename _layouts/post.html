@@ -2,4 +2,23 @@
 layout: default
 ---
 
-{{ content }}
+<section class="section">
+    <div class="container">
+      <div class="column is-8 is-offset-2">
+        <div class="card">
+          <div class="card-content has-text-centered">
+            <p class="title"><a href="{{page.url}}">{{page.title}}</a></p>
+            <p class="subtitle is-6 article-subtitle">
+              <a href="#">{{page.author}}</a> on {{ page.date | date: '%B %d, %Y' }}
+            </p>
+          </div>
+
+          <div class="card-content">
+            <div class="content">
+              {{page.content}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
