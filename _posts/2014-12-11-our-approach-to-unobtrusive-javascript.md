@@ -1,7 +1,7 @@
 ---
 title: "Our approach to unobtrusive javascript"
 date: 2014-12-11T14:46:50.000Z
-author: graze-tech
+author: lee-jordan
 ---
 
 > Unobtrusive JavaScript is a way of writing JavaScript so that if for any reason your JavaScript is not working correctly your web page should still perform its core function.
@@ -57,4 +57,3 @@ There's some extra value associated with our approach which is that we can quick
 
 As always, let us know if you have any thoughts on our approach.
 
-> by [Lee Jordan](https://github.com/leejordan)

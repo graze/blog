@@ -1,7 +1,7 @@
 ---
 title: "our favourite animated gifs"
 date: 2014-04-11T13:41:40.000Z
-author: graze-tech
+author: lee-jordan
 ---
 
 Here in the graze tech team we use [hipchat](https://www.hipchat.com/) to share interesting articles and engage in hilarious banter. We are big fans of using animated gifs in response to stupid questions and to settle arguments. Here are a selection of our favorites.
@@ -78,4 +78,3 @@ Ok so it's not an animated gif but I just wanted to share graze's very own in-ho
 
 The real joke here is that he's not even called Jake.
 
-> by [Lee Jordan](https://github.com/leejordan)

@@ -1,7 +1,7 @@
 ---
 title: "supervising the unsupervisable"
 date: 2014-06-17T10:29:12.000Z
-author: graze-tech
+author: andrew-lawson
 ---
 
 As systems scale and react to growing user numbers, the way you use and transform your data changes. You'll probably build towards a system that works around processing queues, batch processing within daemons and pools of workers. There are many languages that are designed with this in mind, but in reality, we sometimes have to deal with this type of system in languages best suited to simpler tasks.
@@ -28,4 +28,3 @@ To find out more about how to use the supervisor library to handle your processe
 [gh-sup]: https://github.com/graze/supervisor
 [moss]: /content/images/2014/Jun/moss.gif
 
-> by [Andrew Lawson](https://github.com/adlawson)

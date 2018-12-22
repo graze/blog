@@ -1,7 +1,7 @@
 ---
 title: "service oriented communication"
 date: 2013-07-01T10:00:00.000Z
-author: graze-tech
+author: andrew-lawson
 ---
 
 ## Handling service interoperability
@@ -105,4 +105,3 @@ We'd love to hear how SOA has helped your systems, too!
 [soa-2]: http://architects.dzone.com/articles/enterprise-benefits-service
 [soa-3]: http://programming.oreilly.com/2013/06/application-resilience-in-a-service-oriented-architecture.html
 
-> by [Andrew Lawson](https://github.com/adlawson)

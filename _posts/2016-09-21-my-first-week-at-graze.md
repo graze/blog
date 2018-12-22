@@ -1,7 +1,7 @@
 ---
 title: "My First Week at graze"
 date: 2016-09-21T10:54:01.000Z
-author: graze-tech
+author: james-weaver
 ---
 
 Hello, I'm James. I am the newest member of the graze technology team. I graduated from Durham University in 2013 with a degree in Computer Science. Before working at graze I was a web and iOS developer at a startup in London. I particularly enjoy working with frameworks such as  [React JS](https://facebook.github.io/react) and [Express](https://expressjs.com ), and building 'dynamic' static sites with [Middleman](https://middlemanapp.com/).
@@ -18,7 +18,7 @@ The interview itself was part-technical but primarily it was a cultural-fit styl
 
 I kept my fingers crossed and I am delighted to say that I accepted a position at graze the next week.
 
-Before I officially started I met some of the team for a [Wild West Tech Talk](http://www.meetup.com/Wild-West-Tech-Talks/) in Richmond. I have since learned that meetups are a big part of the tech culture at graze. Team members are encouraged to attend meetups as well as to host them. 
+Before I officially started I met some of the team for a [Wild West Tech Talk](http://www.meetup.com/Wild-West-Tech-Talks/) in Richmond. I have since learned that meetups are a big part of the tech culture at graze. Team members are encouraged to attend meetups as well as to host them.
 
 ## My First Week
 
@@ -30,4 +30,3 @@ My first week has flown by. I am being encouraged to share ideas and to suggest 
 
 If you have any questions about the interview process or what it's like to work at graze then please leave a comment below and I'll be happy to help.
 
--> by [James Weaver](https://github.com/james-weaver)

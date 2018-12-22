@@ -1,7 +1,7 @@
 ---
 title: "fresh blood"
 date: 2013-06-07T10:00:00.000Z
-author: graze-tech
+author: tom-percival
 ---
 
 I'm really happy to announce the arrival of 2 new faces in the tech team here at graze.
@@ -24,4 +24,3 @@ For his day job however he will be helping Will on the customer facing aspects o
 
 The very warmest welcome to both of you - we're delighted to have you on board.
 
-> by [Tom Percival](https://github.com/tompercival)

@@ -1,7 +1,7 @@
 ---
 title: "hacker time"
 date: 2013-05-21T10:00:00.000Z
-author: graze-tech
+author: tom-percival
 ---
 
 ## Standing on the shoulders of giants
@@ -37,4 +37,3 @@ We have all agreed the following guidelines. This is a living list, and one of t
 
 Hopefully we go away and build some amazingly innovative tools and features, increase our contribution to open source projects, pay off lots of tech debt and write great articles about it.  In a few months time we'll summarise how it went and how we'll implement in the future.  This is a very exciting development for us here at graze and we can't wait to share it with you.
 
-> by [Tom Percival](https://github.com/tompercival)

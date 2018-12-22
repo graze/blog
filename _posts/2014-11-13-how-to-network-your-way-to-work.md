@@ -1,7 +1,7 @@
 ---
 title: "How to network your way to work"
 date: 2014-11-13T11:51:09.000Z
-author: graze-tech
+author: razel-villanueva
 ---
 
 ### One candidate's experience of Silicon Milkroundabout...
@@ -18,7 +18,7 @@ I struggled to find the right role and after rigorous searching began to convinc
 
 ## Doing your homework
 
-However... 
+However...
 
 ![](/content/images/2014/11/one-does-not-meme.jpg)
 
@@ -34,7 +34,7 @@ I was fortunate to get follow up emails from the companies I connected with and 
 
 ## Reaping the rewards
 
-In a matter of two weeks (I kid you not!) I started working for [graze.com](https://www.graze.com/uk/). They have far exceeded my expectation set from the job description. 
+In a matter of two weeks (I kid you not!) I started working for [graze.com](https://www.graze.com/uk/). They have far exceeded my expectation set from the job description.
 
 ![](/content/images/2014/11/Team-lunch.jpg)
 
@@ -44,4 +44,3 @@ When I first started, the team treated me to a welcome dinner and was really fri
 
 Don't underestimate networking. With the right event and the right preparation, you can secure your career much quicker than if you were to spend weeks searching for it online. Why? Because the recruiter will remember you as a person, rather than just a piece of paper, as Hannah Manku, a recruiter here at graze explains in tomorrow's blog.
 
-> By Razel Villanueva

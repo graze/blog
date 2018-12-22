@@ -1,7 +1,7 @@
 ---
 title: "You've got to have standards"
 date: 2015-06-09T15:36:49.000Z
-author: graze-tech
+author: lee-jordan
 ---
 
 > Browsers are the most hostile software development environment imaginable.
@@ -43,4 +43,3 @@ You can do some amazingly creative things in web development, but they should be
 
 You've got to have standards.
 
-> by [Lee Jordan](https://github.com/leejordan)

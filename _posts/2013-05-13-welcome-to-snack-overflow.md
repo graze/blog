@@ -1,7 +1,7 @@
 ---
 title: "welcome to snack overflow"
 date: 2013-05-13T10:00:00.000Z
-author: graze-tech
+author: tom-percival
 ---
 
 We started graze.com 5 years ago to make healthier snacking easier, anywhere in the UK. For a long time we kept our tech quiet.  When most people browse their favourite snacks they don't want to know about the complex algorithms that choose the contents of their box, nor the home grown logistics and manufacturing systems we have developed.  Nor do they want to know about our deep integration with the Royal Mail or the complex challenges of a slick software development pipeline or of the automated provisioning of diverse infrastructure at AWS.
@@ -30,4 +30,3 @@ You'll start to see more of the team attending events and talking about what we 
 
 I really hope you enjoy this blog, and from time to time it helps you scratch that itch or gets you out of a hole.  Your blog may well have helped us do that in the past. It seems only fair.
 
-> by [Tom Percival](https://github.com/tompercival)

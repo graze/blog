@@ -1,7 +1,7 @@
 ---
 title: "welcome to mark"
 date: 2013-09-04T10:00:00.000Z
-author: graze-tech
+author: tom-percival
 ---
 
 ## Our infrastructure team gets our first dedicated DevOps engineer
@@ -16,4 +16,3 @@ In the time since Mark joined he has stabilised our Vagrant managed developer in
 
 The long term roadmap for this team is incredibly exciting and we'll be sharing it on this blog as we go.  Having Mark's expertise on board is critical to achieving our goals for a highly scalable, highly automated infrastructure - if you are interested in working with Mark on these great projects then take a look at our [jobs page](http://graze.com/uk/jobs/tech).
 
-> by [Tom Percival](https://github.com/tompercival)

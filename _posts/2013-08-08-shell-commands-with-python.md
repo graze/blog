@@ -1,7 +1,7 @@
 ---
 title: "shell commands with python"
 date: 2013-08-08T10:00:00.000Z
-author: graze-tech
+author: mark-egan-fuller
 ---
 
 ## `cmd_utils` - Easier Shell Commands with Python
@@ -103,4 +103,3 @@ The module is available on [GitHub] and [PyPI], to see examples [click here].
 [pypi]:https://pypi.python.org/pypi/cmd_utils
 [click here]:https://github.com/graze/pycmd-utils/blob/master/examples.py
 
-> by [Mark Egan-Fuller](https://github.com/markeganfuller)

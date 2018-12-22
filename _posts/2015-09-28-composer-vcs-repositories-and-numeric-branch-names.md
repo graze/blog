@@ -59,4 +59,3 @@ To read more about versions, check the [composer docs](https://getcomposer.org/d
 
 #tl;dr; numeric branch names require the suffix `.x-dev`
 
-> by John

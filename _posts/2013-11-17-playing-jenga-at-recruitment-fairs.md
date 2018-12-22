@@ -1,7 +1,7 @@
 ---
 title: "playing jenga at recruitment fairs"
 date: 2013-11-17T00:00:00.000Z
-author: graze-tech
+author: patrick-troughton
 ---
 
 The graze tech team is growing at a remarkable rate. Our recent launch in the USA, along with our new kids and breakfast boxes mean we have a lot more demand on our time. So we're looking for hot tech talent!
@@ -32,4 +32,3 @@ Fresh into the team is Simon, our new web developer. He's only been here a few w
 
 Our tech team has never been in such good shape. If you want to join the fun and work on incredibly challenging and interesting projects with some lovely people please check out our [jobs page](http://graze.com/uk/jobs/tech).
 
-> by [Patrick Troughton](https://github.com/chubbytown)

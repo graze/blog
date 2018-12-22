@@ -1,7 +1,7 @@
 ---
 title: "How to get yourself a job at Silicon Milkroundabout"
 date: 2014-11-14T13:47:12.000Z
-author: graze-tech
+author: hannah-manku
 ---
 
 # A recruiter's tips
@@ -35,4 +35,3 @@ Come visit us at [SMR8](https://www.siliconmilkroundabout.com)...
 
 ![](/content/images/2014/11/BnRwi8ZCUAAKovB.jpg)
 
-> By Hannah Manku

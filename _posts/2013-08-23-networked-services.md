@@ -1,7 +1,7 @@
 ---
 title: "networked services"
 date: 2013-08-23T10:00:00.000Z
-author: graze-tech
+author: andrew-lawson
 ---
 
 ## Services over a physical or virtual network interface
@@ -52,5 +52,3 @@ We hope this post has answered questions you may have had and also sparked some 
 
 ---
 
-
-> By [Andrew Lawson](https://github.com/adlawson)

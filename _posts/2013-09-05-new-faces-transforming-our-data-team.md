@@ -1,7 +1,7 @@
 ---
 title: "new faces transforming our data team"
 date: 2013-09-05T10:00:00.000Z
-author: graze-tech
+author: tom-percival
 ---
 
 As the company's appetite for data analysis and insight increases at an astonishing rate we have been looking for really talented data scientists and analysts to join the team. As a result we have 2 new faces here who need an introduction.
@@ -20,4 +20,3 @@ Mike joined us in August from the Data Analytics team at Deloitte. He is a Physi
 
 Our data team has never been in such good shape and we are very lucky to have both Zoe and Mike both on board. If you want to join them and work on incredibly challenging and needle moving projects please check out our [jobs page](http://graze.com/uk/jobs/tech).
 
-> by [Tom Percival](https://github.com/tompercival)
