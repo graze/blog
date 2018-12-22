@@ -10,8 +10,7 @@ Mulled wine, log fires, Christmas carols... nothing can say "Merry Christmas!" q
 
 Bolted next to the conveyor there is a light sensor that blinks each time a box flies out. After diving into the perpetual stream of boxes and into the inner workings of the machine, I found the trailing leads from the little blinker. According to the multimeter, it outputs a 24v signal each time the sensor senses. This is standard for [PLC](http://en.wikipedia.org/wiki/Programmable_logic_controller) equipment.
 
-##The Plan
-
+## The Plan
 
 * build a circuit to drop the sensor's 24v down to a GPIO friendly 3.3v
 * connect the 3.3v output to a Raspberry Pi's GPIO header
@@ -19,7 +18,7 @@ Bolted next to the conveyor there is a light sensor that blinks each time a box 
 * send the timestamps to a DB somewhere
 * release the data team up on the timestamps
 
-##The Prototype
+## The Prototype
 
 ![breadboard][prototype]
 
@@ -29,7 +28,7 @@ Luckily for me, someone had already done all of the hard work and designed the c
 
 There's an LED to give an indication of what's going on, and instead of a box forming machine, I have a little switch and a car battery charger to test with.
 
-##The Program
+## The Program
 
 Some design considerations
 
@@ -39,7 +38,7 @@ Some design considerations
 
 With the above in mind, a small C program was written: **signalCounter**. If you want to read more about it, head over to the [github page](https://github.com/graze/signalCounter/) and take a look at its README.
 
-##The future
+## The future
 
 Next up, connecting the whole thing up and seeing if it works. Then, assuming it does, getting some pretty PCBs printed and rolling them out to the all of our box forming machines.
 

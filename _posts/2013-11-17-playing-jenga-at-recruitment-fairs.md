@@ -8,7 +8,7 @@ The graze tech team is growing at a remarkable rate. Our recent launch in the US
 
 graze are investing in the future. We're looking for exceptional technology graduates with a passion for all things tech. We run a code academy and invest in your personal development and training. And as a small company, you get involved in everything. Take a look at our [jobs page](http://graze.com/uk/jobs/tech). Oh, and with free breakfast and Friday beers, you can't go wrong.
 
-##We look in universities...##
+## We look in universities ...
 
 ![Graze at Oxford](/content/images/2014/Apr/graze-at-oxford.jpg)
 
@@ -16,7 +16,7 @@ Our "lo-fi" cardboard box stand is often dangerously close to collapse, but we l
 
 graze is a technology company and that's the message we want to share. Every part of our service is underpinned with world class technology to make it efficient and scalable. To do this we need world class tech talent so we're looking for the most talented, enthusiastic and entrepreneurial people to add to our already exceptional tech team. We met some very smart graduates who we'd love have in our team.
 
-##... and we look at Silicon Milkroundabout##
+## ... and we look at Silicon Milkroundabout
 
 ![graze at SMR](/content/images/2014/Apr/graze-at-smr.jpg)
 
@@ -24,7 +24,7 @@ We took a big team to [Silicon Milkroundabout](http://siliconmilkroundabout.com)
 
 Launched in a London pub in 2011, Silicon Milkroundabout now has 2,000 people attending events and around 800 jobs on offer from 130 companies including Badoo, Shazam, Moo, Mind Candy and GoCardless. We met some very smart people and hope to get some of them into our web, fulfilment and production software platform, and data insight teams.
 
-##Hello Simon##
+## Hello Simon
 
 ![simon](/content/images/2014/Apr/photo-simon.jpg)
 

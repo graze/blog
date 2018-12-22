@@ -6,7 +6,7 @@ author: graze-tech
 
 I'm really happy to announce the arrival of 2 new faces in the tech team here at graze.
 
-##Csaba##
+## Csaba
 
 ![Csaba](/content/images/2014/Apr/photo-csaba.jpg)
 
@@ -14,7 +14,7 @@ Csaba joins our infrastructure team as a sysadmin. Csaba will be initially focus
 
 He's a big fan of off-roading and horse riding and judging from our office move a few days ago he can carry three times his own bodyweight.
 
-##Chris##
+## Chris
 
 ![Chris](/content/images/2014/Apr/photo-chris.jpg)
 

@@ -7,7 +7,7 @@ author: graze-tech
 
 We're hiring for a number of entry-level positions in the graze tech team!
 
-Youâ€™ll be working closely with the data and digital product teams on scoping, designing and delivering projects that add value to the technology platform and further its ability to support graze in the long-term. You could be building user experiences using our custom-built front end framework, designing our APIs to deliver the data required for our applications, or working with the data team to analyse customer data to inform the commercial teams. 
+You'll be working closely with the data and digital product teams on scoping, designing and delivering projects that add value to the technology platform and further its ability to support graze in the long-term. You could be building user experiences using our custom-built front end framework, designing our APIs to deliver the data required for our applications, or working with the data team to analyse customer data to inform the commercial teams.
 
 Whatever area you want to work in, you'll be complementing our existing team, forming relationships across the business and getting involved with a wide range of projects. You should have a passion for technology, be willing to learn, and have some entrepreneurial flair, and we'll help you develop the skills to become a valuable member of our technology team.
 

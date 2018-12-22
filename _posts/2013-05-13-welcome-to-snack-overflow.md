@@ -16,7 +16,7 @@ Our plan is five-fold:
 Our incredibly talented team of developers and systems engineers have a huge amount of experience and knowledge under their belts. We're going to take that experience and feed back into projects from which we have gained so much.
 
 2. **Open source areas of our platform**
-Though large parts of our platform are purpose built with a very specific application in mind we are committed to open sourcing where appropriate â€“ not just so that others can benefit from our R&D but also so that we can benefit from your input as the software matures in the hands of the crowd.  This has started and you will hear about that in this blog's next post.
+Though large parts of our platform are purpose built with a very specific application in mind we are committed to open sourcing where appropriate - not just so that others can benefit from our R&D but also so that we can benefit from your input as the software matures in the hands of the crowd.  This has started and you will hear about that in this blog's next post.
 
 
 3. **Discuss our engineering challenges and achievements on this blog** 
@@ -26,7 +26,7 @@ We do some pretty amazing things here and we want to start talking about them.  
 Open sourcing and blogging takes time and we recognise that.  We are introducing hacker time here at graze (to be discussed in future posts on this blog) and one of many great uses of that time is to support this initiative.  We care that we can contribute, the team here are passionate about it and everyone at graze supports that.
 
 5. **Get out more**
-You'll start to see more of the team attending events and talking about what we do.  It's a great experience for the individual, it's great to be able to talk about what we do and get some peer review and it's a great way for you to come and meet us in an informal setting.  We are **ALWAYS** on the lookout for smart people â€“ if you are the right person and you want to be a part of what we are doing then there'll be a place for you here at graze.
+You'll start to see more of the team attending events and talking about what we do.  It's a great experience for the individual, it's great to be able to talk about what we do and get some peer review and it's a great way for you to come and meet us in an informal setting.  We are **ALWAYS** on the lookout for smart people - if you are the right person and you want to be a part of what we are doing then there'll be a place for you here at graze.
 
 I really hope you enjoy this blog, and from time to time it helps you scratch that itch or gets you out of a hole.  Your blog may well have helped us do that in the past. It seems only fair.
 

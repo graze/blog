@@ -4,10 +4,11 @@ date: 2013-09-04T10:00:00.000Z
 author: graze-tech
 ---
 
-##Our infrastructure team gets our first dedicated DevOps engineer##
+## Our infrastructure team gets our first dedicated DevOps engineer
+
 Our infrastructure team is now shifting its focus onto future international expansion and automating and scaling our systems for the rapid growth we will see over the next 12 months.  We are focussing on streamlining our developer processes, building the best tools to support our tech teams, automating our infrastructure and rolling out comprehensive monitoring and awareness systems for hardware, networks and applications.
 
-##Mark##
+## Mark
 
 ![Mark](/content/images/2014/Apr/photo-mark.jpg)
 

@@ -6,7 +6,7 @@ author: will-pillar
 
 There have been a few times I have come across a situation where I need to share some logic between controllers but it hasn't been as clear cut as abstracting that logic out into a library. I've been pondering the best way to tackle this problem and would like to share my thoughts. Take this code as an example, which is similar to some legacy code I came across recently:
 
-```prettyprint lang-php
+```php
 <?php
 
 /**
@@ -56,9 +56,9 @@ Currently this logic is duplicated in both controllers. This instinctively feels
 
 How can we make this better? Let's try solving by extension...
 
-### Extension
+## Extension
 
-```prettyprint lang-php
+```php
 <?php
 
 abstract class AddAddressController
@@ -99,9 +99,9 @@ But let's think about this for second, this means that everywhere we want to add
 
 Hmm, well let's try moving the logic into a library...
 
-### Library Code
+## Library Code
 
-```prettyprint lang-php
+```php
 <?php
 
 class AddAddressHandler
@@ -151,9 +151,9 @@ We've moved our logic into a library class called `AddAddressHandler` and then w
 
 So what next?
 
-### Trait
+## Trait
 
-```prettyprint lang-php
+```php
 <?php
 
 trait AddAddressTrait
@@ -191,6 +191,5 @@ class SignupController
 ```
 
 We've moved our logic into a trait, a trait can be shared between many controllers without inheritance and it's more reasonable to do things with views and redirects here (though still not ideal). This in my eyes is the best solution to the problem, it's what traits are good for and it's quite convenient. Need a controller with the ability to add addresses? Add a one-line `use` statement and you're done.
-
 
 **What are your thoughts? Have you encountered this problem before? How did you solve it?**

@@ -10,7 +10,7 @@ It's a pattern we've used extensively in our web application for more than a yea
 
 Previously we passed our legacy templating engine our active record objects directly. Views then had access to all the methods and properties defined on these classes, which meant that working out what data any particular view actually needed was not always trivial.
 
-```prettyprint lang-php
+```php
 $view->user = User::get(1);
 
 echo $this->view->render('user.phtml');
@@ -18,7 +18,7 @@ echo $this->view->render('user.phtml');
 
 Using the pattern that [graze/formatter](https://github.com/graze/formatter) defines we've reduced the size  of the context that's being passing to views. What we're passing has also become much more clear.
 
-```prettyprint lang-php
+```php
 class UserFormatter extends \Graze\Formatter\AbstractFormatter
 {
     public function convert($object)
@@ -42,7 +42,7 @@ The power of the library comes from registering [processors](https://github.com/
 
 Say we want all the ratings information for a user in another view:
 
-```prettyprint lang-php
+```php
 $ratingService = new RatingService();
 
 $processor = function (array $data, User $user) use ($ratingService) {

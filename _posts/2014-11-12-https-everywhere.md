@@ -1,5 +1,5 @@
 ---
-title: "secure snacking â€“ switching to https everywhere"
+title: "secure snacking - switching to https everywhere"
 date: 2014-11-12T09:59:31.000Z
 tags: [security]
 author: graze-tech
@@ -15,7 +15,7 @@ Adding a [HSTS policy][2] header to our responses and including the graze.com do
 
 These changes would make sure that our customers make as few requests as possible to the graze website over an insecure connection (such as the first visit made by a customer from an old non-SSL link).
 
-*Edit* â€“ For some further reading, The New York Times published a great post on [why we should embrace HTTPS][4].
+*Edit* - For some further reading, The New York Times published a great post on [why we should embrace HTTPS][4].
 
 > by [Sam Parkinson](https://github.com/sjparkinson)
 
