@@ -10,7 +10,7 @@ However, when using [controller providers](http://silex.sensiolabs.org/doc/provi
 
 For example:
 
-```prettyprint lang-php
+```php
 class ProfileControllerProvider implements ControllerProviderInterface
 {
     public function connect(Application $app)
@@ -34,4 +34,4 @@ In this case `POST` requests to `/profile` will 404, as `/profile/` is the regis
 
 I wrote a simple controller provider that iterates on @jrschumacher's work, defining the route and overriding the registered `url_matcher` correctly:
 
-<center>**https://github.com/graze/silex-trailing-slash-handler**</center>
+* <https://github.com/graze/silex-trailing-slash-handler>

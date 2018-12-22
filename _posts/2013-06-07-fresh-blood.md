@@ -1,12 +1,12 @@
 ---
 title: "fresh blood"
 date: 2013-06-07T10:00:00.000Z
-author: graze-tech
+author: tom-percival
 ---
 
 I'm really happy to announce the arrival of 2 new faces in the tech team here at graze.
 
-##Csaba##
+## Csaba
 
 ![Csaba](/content/images/2014/Apr/photo-csaba.jpg)
 
@@ -14,7 +14,7 @@ Csaba joins our infrastructure team as a sysadmin. Csaba will be initially focus
 
 He's a big fan of off-roading and horse riding and judging from our office move a few days ago he can carry three times his own bodyweight.
 
-##Chris##
+## Chris
 
 ![Chris](/content/images/2014/Apr/photo-chris.jpg)
 
@@ -24,4 +24,3 @@ For his day job however he will be helping Will on the customer facing aspects o
 
 The very warmest welcome to both of you - we're delighted to have you on board.
 
-> by [Tom Percival](https://github.com/tompercival)

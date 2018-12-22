@@ -1,7 +1,7 @@
 ---
 title: "graze is coming to silicon milkroundabout"
 date: 2014-05-02T08:59:18.000Z
-author: graze-tech
+author: patrick-troughton
 ---
 
 We're looking forward to [Silicon Milkroundabout](http://www.siliconmilkroundabout.com/events/next) next week and hoping lots of you come along to chat to us.
@@ -16,4 +16,3 @@ Oh, we've got a really big sign to go with our brand new stand so you won't miss
 
 ![Ben with our supersize logo](/content/images/2014/May/big-sign.jpg)
 
-> by [Patrick Troughton](https://github.com/chubbytown)

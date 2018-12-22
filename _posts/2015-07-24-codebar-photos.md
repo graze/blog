@@ -20,6 +20,6 @@ After some tasty pizza and beers, Sam from our Web Team gave a [lightning talk](
 
 ![](/content/images/2015/07/IMG_3726.JPG)
 
-It was a great night and we had really positive feedback from the students and coaches who came along. codebar host events all over the country, so if youâ€™re keen to learn how to code, or would like to help teach others, [get involved](http://codebar.io/events)!
+It was a great night and we had really positive feedback from the students and coaches who came along. codebar host events all over the country, so if you're keen to learn how to code, or would like to help teach others, [get involved](http://codebar.io/events)!
 
 (Photos by Razel Villanueva, Edd Read and Simon Plenderleith)

@@ -1,14 +1,14 @@
 ---
 title: "our favourite animated gifs"
 date: 2014-04-11T13:41:40.000Z
-author: graze-tech
+author: lee-jordan
 ---
 
 Here in the graze tech team we use [hipchat](https://www.hipchat.com/) to share interesting articles and engage in hilarious banter. We are big fans of using animated gifs in response to stupid questions and to settle arguments. Here are a selection of our favorites.
 
 ***
 
-##Alan partridge eye roll
+## Alan partridge eye roll
 ![](/content/images/2014/Apr/giphy.gif)
 
 Alan Partidge is popular around here. We even have a service named after him (with the most awkward forced acronym possible)
@@ -21,7 +21,7 @@ example usage:
 
 ***
 
-##Mind = blown
+## Mind = blown
 
 ![](/content/images/2014/Apr/mind-blown.gif)
 
@@ -37,7 +37,7 @@ example usage:
 
 ***
 
-##Colbert panic
+## Colbert panic
 ![](/content/images/2014/Apr/colbert-panic.gif)
 
 example usage:
@@ -50,7 +50,7 @@ example usage:
 
 ***
 
-##Brent Rambo thumbs up
+## Brent Rambo thumbs up
 ![](/content/images/2014/Apr/thumbs-up-1.gif)
 
 example usage:
@@ -60,7 +60,7 @@ example usage:
 
 ***
 
-##It's happening
+## It's happening
 ![](/content/images/2014/Apr/web-release.gif)
 
 example usage:
@@ -71,11 +71,10 @@ example usage:
 
 ***
 
-##Jakeface
+## Jakeface
 ![](/content/images/2014/Apr/jake-face-meme.jpg)
 
 Ok so it's not an animated gif but I just wanted to share graze's very own in-house meme: the Jakeface&trade;
 
 The real joke here is that he's not even called Jake.
 
-> by [Lee Jordan](https://github.com/leejordan)

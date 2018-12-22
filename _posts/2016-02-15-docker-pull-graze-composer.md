@@ -10,7 +10,7 @@ Get it now with `docker pull graze/composer`, or check it out on the [Docker Hub
 
 To share cache and authentication with your host you can use the following configuration:
 
-```prettyprint lang-bash
+```bash
 ~$ docker run --rm -it \
      -v $(pwd):/usr/src/app \
      -v ~/.composer:/root/.composer \

@@ -14,7 +14,7 @@ We've started using it to test our Docker images too, see the [graze/composer](h
 
 Here's what a typical test looks like:
 
-```prettyprint lang-bash
+```bash
 @test "composer version is correct" {
   run docker run --rm graze/composer:php-7.0 --version --no-ansi
   echo 'status:' $status

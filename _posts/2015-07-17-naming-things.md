@@ -1,5 +1,5 @@
 ---
-title: "Codebar â€“ Naming Things"
+title: "Codebar - Naming Things"
 date: 2015-07-17T14:01:27.000Z
 author: sam-parkinson
 ---

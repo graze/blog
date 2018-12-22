@@ -1,7 +1,7 @@
 ---
 title: "the graze css framework"
 date: 2014-03-21T11:40:00.000Z
-author: graze-tech
+author: lee-jordan
 ---
 
 In the graze web team we pride ourselves on being able to rapidly develop new features in response to our customer and business needs but that rapid pace of development has sometimes come with a bit of associated baggage.
@@ -32,4 +32,3 @@ At its core bootstrap has a very flexible grid structure that makes it really ea
 
 Several new features on our website have been built using this framework so far and it is our goal to convert or rebuild all of our pages in this framework in the coming months. This will futureproof our site by giving our front-end developers a solid responsive framework on which to build.
 
-> by [Lee Jordan](https://github.com/leejordan)

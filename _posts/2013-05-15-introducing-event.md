@@ -1,7 +1,7 @@
 ---
 title: "introducing event"
 date: 2013-05-15T10:00:00.000Z
-author: graze-tech
+author: andrew-lawson
 ---
 
 Today we're proud to announce our first open source library, [Event][event]. We're releasing it as part of our increased efforts to contribute to the open tech community. The library once lived its life as part of our internal systems, but making the source public was a no-brainer.
@@ -50,4 +50,3 @@ Happy coding!
 <!-- Links -->
 [event]:  http://github.com/graze/event
 
-> By [Andrew Lawson](https://github.com/adlawson)

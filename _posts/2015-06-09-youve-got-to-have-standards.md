@@ -1,7 +1,7 @@
 ---
 title: "You've got to have standards"
 date: 2015-06-09T15:36:49.000Z
-author: graze-tech
+author: lee-jordan
 ---
 
 > Browsers are the most hostile software development environment imaginable.
@@ -10,8 +10,7 @@ author: graze-tech
 
 Front end web development can be painful. The pain is mostly caused by the almost infinite number of combinations of software and hardware. We don't have a locked down ecosystem like you have when building a device specific app using native language e.g. an iOS app. I'm here to remind you that this pain can be somewhat mitigated if you understand and follow web standards.
 
-
-##What are web standards?
+## What are web standards?
 
 I'll let the organisation that writes and publishes web standards answer that one:
 
@@ -25,7 +24,8 @@ In essence web standards are a crowd-sourced set of rules that are written throu
 * The placeholder attribute represents a short hint (a word or short phrase) intended to aid the user with data entry when the control has no value. A hint could be a sample value or a brief description of the expected format. **The placeholder attribute should not be used as a replacement for a label**.
 * **Do not use any method that hides the focus ring from keyboard users**, in particular do not use a CSS rule to override the 'outline' property. Removal of the focus ring leads to serious accessibility issues for users who navigate and interact with interactive content using the keyboard.
 
-###Why are web standards important?
+## Why are web standards important?
+
 > Web standards are not arcane laws decreed by ivory-tower organizations. As we have described, the standards are for the most part decided by representatives of the same people who use them - browser makers, Web developers, content providers, and other organizations.
 > 
 > -- <cite>[webstandards.org FAQ](http://www.webstandards.org/learn/faq/)</cite>
@@ -43,4 +43,3 @@ You can do some amazingly creative things in web development, but they should be
 
 You've got to have standards.
 
-> by [Lee Jordan](https://github.com/leejordan)

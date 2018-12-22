@@ -23,9 +23,9 @@ Another reason was to have ad additional language in our toolbox. Most tasks can
 
 As part of using Go we have also produced a number of open source helper projects:
 
-* https://github.com/graze/golang-service Logging handlers for go services
-* https://github.com/graze/docker-golang-tools A docker container with additional tools we use
-* https://github.com/graze/cucumber-rest-bdd A behavioural testing suite for RESTful APIs. Not technically Go but was initially built for use with our Go services
+* [graze/golang-service](https://github.com/graze/golang-service) Logging handlers for go services
+* [graze/docker-golang-tools](https://github.com/graze/docker-golang-tools) A docker container with additional tools we use
+* [graze/cucumber-rest-bdd](https://github.com/graze/cucumber-rest-bdd) A behavioural testing suite for RESTful APIs. Not technically Go but was initially built for use with our Go services
 
 We also have some internal tooling:
 

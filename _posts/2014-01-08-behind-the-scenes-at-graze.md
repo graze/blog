@@ -1,7 +1,7 @@
 ---
 title: "behind the scenes at graze"
 date: 2014-01-08T15:45:00.000Z
-author: graze-tech
+author: patrick-troughton
 ---
 
 graze has always been a technology company. We've custom built world-class technology that drives our logistics operation to get graze boxes efficiently from the graze kitchen to the customer and we would like to show it off.
@@ -12,4 +12,3 @@ If you are a 2014 graduate in Computer Science, Maths, Physics or a related tech
 
 [![Behind the scenes](https://cdn.graze.com/static/1389201021/images/graze/en/jobs/openDayBanner.jpg "Behind the scenes")](http://www.graze.com/behind-the-scenes)
 
-> by [Patrick Troughton](https://github.com/chubbytown)

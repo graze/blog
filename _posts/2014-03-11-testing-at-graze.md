@@ -2,7 +2,7 @@
 title: "testing at graze"
 date: 2014-03-11T11:39:00.000Z
 tags: [getting-started]
-author: graze-tech
+author: will-pillar
 ---
 
 Inspired by AirBnB's [Testing at AirBnB](http://nerds.airbnb.com/testing-at-airbnb) article, I thought I would share some of what we do at graze to test our code before it makes it into production and what we're moving towards.
@@ -77,7 +77,6 @@ At the moment we're using [Buildbox](http://buildbox.io) to manage our builds on
 
 Eventually we want to fully automate our release process from a single push to the master branch we should be able to kick off a CI build which will run our tests, should they pass it will automatically stage the new code on one of our staging servers and then eventually push the code out to our live servers.
 
-
 ## The Future ##
 
 What we've come to realise over the last few months is that all of these different test suites and processes have to work together in order to deliver a fully automated testing platform. Without a quick test suite our CI builds would take too long, without Pull Requests we couldn't have peer oversight and guidance, without complementary unit and functional test suites we couldn't be as confident with releasing new code and without CI we couldn't ship as quickly as we need to whilst ensuring our code is tested.
@@ -85,6 +84,4 @@ What we've come to realise over the last few months is that all of these differe
 We're slowly but surely moving towards a fully automated testing and release platform and when we get there it will enable us to move fast, ship new code and let our services and processes work for us instead of us working for them.
 
 Testing doesn't need to be something that kills your development speed or gets in your way, if you write testable code, make it easy to write tests and even easier to run the tests then you're already gaining so much more than you're putting in.
-
-> by [Will Pillar](https://github.com/wpillar)
 

@@ -1,7 +1,7 @@
 ---
 title: "environment modelling with a raspberry pi"
 date: 2013-12-03T15:50:00.000Z
-author: graze-tech
+author: csaba-pacsko
 ---
 
 Every graze site has a comms room for the local servers (DC slaves, DB slaves, local webservers/fileshares, etc.) and for the networking gear. As well as monitoring the devices in the comms room we need to monitor the health of the comms room itself.
@@ -10,7 +10,7 @@ To achieve this we have previously used the APC environmental monitoring solutio
 
 We have good experience with them, except for the slightly tricky setup. They're providing us with metrics through SNMP ([Simple Network Management Protocol](http://en.wikipedia.org/wiki/Simple_Network_Management_Protocol) - the industrial standard for monitoring protocols) which we're using already for gathering the monitoring data from the Cisco routers and switches, so it was easy to implement them to our existing Nagios/Cacti/Datadog configuration.
 
-The only problem is the price. You cannot buy one for less than Â£500, but depending on your needs, they could cost more than Â£1000. As we're growing as a business we will need more and more of them at the new sites, and not only for comms rooms. We're happy to spend money on infrastructure that makes our service better, but if we can get the same quality in a cheaper product we'll definitely go for it. Especially if it's open-source (the Netbotz is not).
+The only problem is the price. You cannot buy one for less than £500, but depending on your needs, they could cost more than £1000. As we're growing as a business we will need more and more of them at the new sites, and not only for comms rooms. We're happy to spend money on infrastructure that makes our service better, but if we can get the same quality in a cheaper product we'll definitely go for it. Especially if it's open-source (the Netbotz is not).
 
 ---
 So for my [hacker-time project](/2013/05/21/hacker-time) I decided to find a cheaper solution for this problem.
@@ -31,7 +31,7 @@ To get the simplest solution I removed the Arduino from the equation and started
 
 There are limitations of the Raspberry Pi GPIO functionality but it's still perfect for our needs: you can connect the standard one-wire digital thermo sensors (like the DS18B20) with a 4.7kOhm [pull-up resistor](http://en.wikipedia.org/wiki/Pull-up_resistor) between the 3.3V and the Data line (with the DHT11 Single-Bus Digital Temperature and Relative Humidity Sensor you don't need to solder anything because it's got the resistor integrated - testing this will be the next step of my hardware design of the TempBerry).
 
-##Hardware setup##
+## Hardware setup
 
 The hardware you need:
 
@@ -53,7 +53,7 @@ Plug the GPIO cable to the Rasberry Pi GPIO interface and the other end to the m
 
 ![graze at SMR](/content/images/2014/Apr/tempberry-2.jpg)
 
-##Software setup##
+## Software setup
 
 The software you need:
 
@@ -69,82 +69,93 @@ The following steps happen in the linux command line of the configured Raspbian 
 
 So you got the command line of the RPi - let's become root, but keeping our own environment:
 
-<?prettify lang=bsh?>
-    /usr/bin/sudo bash
-
+```bash
+/usr/bin/sudo bash
+```
 
 Load the GPIO modules:
 
-<?prettify lang=bsh?>
-    /sbin/modprobe w1-gpio
-    /sbin/modprobe w1-therm
+```bash
+/sbin/modprobe w1-gpio
+/sbin/modprobe w1-therm
+```
 
 Make the modules permanent and loaded automatically after a reboot:
 
-<?prettify lang=bsh?>
-    /bin/echo -e -n "w1-gpio\nw1-therm\n" >> /etc/modules
+```bash
+/bin/echo -e -n "w1-gpio\nw1-therm\n" >> /etc/modules
+```
 
 Check if the modules are loaded:
 
-<?prettify lang=bsh?>
-    /sbin/lsmod | /bin/grep w1
+```bash
+/sbin/lsmod | /bin/grep w1
+```
 
 You should see something like this:
 
-<?prettify lang=bsh?>
-    w1_therm            	2987  0
-    w1_gpio             	1308  0
-    wire               	24629  2 w1_gpio,w1_therm
+```
+w1_therm            	2987  0
+w1_gpio             	1308  0
+wire               	24629  2 w1_gpio,w1_therm
+```
 
 The devices connected to the GPIO will appear in the following directory:
 
-<?prettify lang=bsh?>
-    /bin/ls -l /sys/bus/w1/devices/
+```bash
+/bin/ls -l /sys/bus/w1/devices/
+```
 
 If you did a good job on the breadboard (or with the soldering kit) and connected the right wires to the correct pins then you should see something like this:
 
-<?prettify lang=bsh?>
-    lrwxrwxrwx 1 root root 0 Nov 29 12:22 28-0000054d96ae -> ../../../devices/w1_bus_master1/28-0000054d96ae
-    lrwxrwxrwx 1 root root 0 Dec  2 16:43 w1_bus_master1 -> ../../../devices/w1_bus_master1
-
+```
+lrwxrwxrwx 1 root root 0 Nov 29 12:22 28-0000054d96ae -> ../../../devices/w1_bus_master1/28-0000054d96ae
+lrwxrwxrwx 1 root root 0 Dec  2 16:43 w1_bus_master1 -> ../../../devices/w1_bus_master1
+```
 
 Every device has an identifier number (the serial number) and GPIO modules are creating the necessary folders and files for all recognised devices. The metrics are in the w1_slave files in the directories named by the serial numbers. In this case we need to look at this file:
 
-<?prettify lang=bsh?>
-    /bin/cat /sys/bus/w1/devices/28-0000054d96ae/w1_slave
+```bash
+/bin/cat /sys/bus/w1/devices/28-0000054d96ae/w1_slave
+```
 
 If the sensor is working correctly you should see something like this:
 
-<?prettify lang=bsh?>
-    a5 01 4b 46 7f ff 0b 10 f7 : crc=f7 YES
-    a5 01 4b 46 7f ff 0b 10 f7 t=26312
+```
+a5 01 4b 46 7f ff 0b 10 f7 : crc=f7 YES
+a5 01 4b 46 7f ff 0b 10 f7 t=26312
+```
 
 The interesting value is `t=26312`, which is in fact 26.312 Celsius.
 
 We need only this number so let's create a one-liner to show only this value:
 
-<?prettify lang=bsh?>
-    /bin/cat /sys/bus/w1/devices/28*/w1_slave|grep "t="|/usr/bin/awk '{print $10}'|/bin/sed 's/t=//g'|/bin/sed 's/\(..\)\(...\)/\1.\2/'
-
+```bash
+/bin/cat /sys/bus/w1/devices/28*/w1_slave|grep "t="|/usr/bin/awk '{print $10}'|/bin/sed 's/t=//g'|/bin/sed 's/\(..\)\(...\)/\1.\2/'
+```
 
 You could use this one-liner everywhere, but putting it into a script makes your life easier:
 
-<?prettify lang=bsh?>
-    /usr/bin/vi /usr/local/bin/therm.sh
+```bash
+/usr/bin/vi /usr/local/bin/therm.sh
+```
 
-    #!/bin/bash
-    /bin/cat /sys/bus/w1/devices/28*/w1_slave|grep "t="|/usr/bin/awk '{print $10}'|/bin/sed 's/t=//g'|/bin/sed 's/\(..\)\(...\)/\1.\2/'
-
+```bash
+#!/bin/bash
+/bin/cat /sys/bus/w1/devices/28*/w1_slave|grep "t="|/usr/bin/awk '{print $10}'|/bin/sed 's/t=//g'|/bin/sed 's/\(..\)\(...\)/\1.\2/'
+```
 
 Make it executable:
 
-<?prettify lang=bsh?>
-    /bin/chmod +x /usr/local/bin/therm.sh
+```bash
+/bin/chmod +x /usr/local/bin/therm.sh
+```
 
 And run it:
 
-<?prettify lang=bsh?>
-    /usr/local/bin/therm.sh
+```bash
+/usr/local/bin/therm.sh
+```
 
 The result:
 
@@ -152,23 +163,27 @@ The result:
 
 We're half-way there. Now we need to expose this data to our Nagios server with SNMP by installing the snmp daemon from the Raspbian/Debian repository:
 
-<?prettify lang=bsh?>
-    /usr/bin/apt-get update && /usr/bin/apt-get install snmpd
+```bash
+/usr/bin/apt-get update && /usr/bin/apt-get install snmpd
+```
 
 The default SNMP config would work, but as it's full of examples and I like to keep things simple, let's rename it:
 
-<?prettify lang=bsh?>
-    mv /etc/snmp/snmpd.conf /etc/snmp/snmpd.conf.old
+```bash
+mv /etc/snmp/snmpd.conf /etc/snmp/snmpd.conf.old
+```
 
 We only need the built-in script execution functionality of the SNMP daemon so let's create a new, simple config:
 
-<?prettify lang=bsh?>
-    /usr/bin/vi /etc/snmp/snmpd.conf
+```bash
+/usr/bin/vi /etc/snmp/snmpd.conf
+```
 
-    agentAddress udp:161
-    rocommunity public 10.10.10.10
-    extend .1.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743 therm /bin/bash /usr/local/bin/therm.sh
-
+```
+agentAddress udp:161
+rocommunity public 10.10.10.10
+extend .1.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743 therm /bin/bash /usr/local/bin/therm.sh
+```
 
 With this we're defining only the used network interface(s), protocol and port (all configured interfaces, udp and 161), a read-only community string (public) and the client who can access the exported SNMP OIDs - which is our Nagios server (10.10.10.10), and the last line is executing our script and putting the data from it on an OID ([read more on SNMP, MIBs and OIDs](http://en.wikipedia.org/wiki/Simple_Network_Management_Protocol)).
 
@@ -180,88 +195,92 @@ The most important line: the parameters of the **extend** function:
 
 Save the config file and restart snmpd:
 
-<?prettify lang=bsh?>
-    /etc/init.d/snmpd restart
+```bash
+/etc/init.d/snmpd restart
+```
 
-
-##Testing##
+## Testing
 
 Now we can test it from the Nagios server with snmpwalk:
 
-<?prettify lang=bsh?>
-    /usr/bin/snmpwalk -v2c -c cacti 10.10.10.11 .1.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743
+```bash
+/usr/bin/snmpwalk -v2c -c cacti 10.10.10.11 .1.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743
+```
 
 You should get something like this:
 
-<?prettify lang=bsh?>
-    iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.1.0 = INTEGER: 1
-    iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.2.5.116.104.101.114.109 = STRING: "/bin/bash"
-    iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.3.5.116.104.101.114.109 = STRING: "/usr/local/bin/therm.sh"
-    iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.4.5.116.104.101.114.109 = ""
-    iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.5.5.116.104.101.114.109 = INTEGER: 5
-    iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.6.5.116.104.101.114.109 = INTEGER: 1
-    iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.7.5.116.104.101.114.109 = INTEGER: 1
-    iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.20.5.116.104.101.114.109 = INTEGER: 4
-    iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.21.5.116.104.101.114.109 = INTEGER: 1
-    iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.3.1.1.5.116.104.101.114.109 = STRING: "26.500"
-    iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.3.1.2.5.116.104.101.114.109 = STRING: "26.500"
-    iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.3.1.3.5.116.104.101.114.109 = INTEGER: 1
-    iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.3.1.4.5.116.104.101.114.109 = INTEGER: 0
-    iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.4.1.2.5.116.104.101.114.109.1 = STRING: "26.500"
-
+```
+iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.1.0 = INTEGER: 1
+iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.2.5.116.104.101.114.109 = STRING: "/bin/bash"
+iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.3.5.116.104.101.114.109 = STRING: "/usr/local/bin/therm.sh"
+iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.4.5.116.104.101.114.109 = ""
+iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.5.5.116.104.101.114.109 = INTEGER: 5
+iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.6.5.116.104.101.114.109 = INTEGER: 1
+iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.7.5.116.104.101.114.109 = INTEGER: 1
+iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.20.5.116.104.101.114.109 = INTEGER: 4
+iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.2.1.21.5.116.104.101.114.109 = INTEGER: 1
+iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.3.1.1.5.116.104.101.114.109 = STRING: "26.500"
+iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.3.1.2.5.116.104.101.114.109 = STRING: "26.500"
+iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.3.1.3.5.116.104.101.114.109 = INTEGER: 1
+iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.3.1.4.5.116.104.101.114.109 = INTEGER: 0
+iso.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.4.1.2.5.116.104.101.114.109.1 = STRING: "26.500"
+```
 
 Test with the Nagios plugin itself:
 
-<?prettify lang=bsh?>
-    /usr/lib/nagios/plugins/check_snmp -H 10.10.10.11 -o .1.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.4.1.2.5.116.104.101.114.109.1 -w 27 -c 29 -C cacti -l Temp -u C -t 20
-
+```
+/usr/lib/nagios/plugins/check_snmp -H 10.10.10.11 -o .1.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.4.1.2.5.116.104.101.114.109.1 -w 27 -c 29 -C cacti -l Temp -u C -t 20
+```
 
 The response should be something similar:
 
-<?prettify lang=bsh?>
-    SNMP OK - Temp 26.5 C | Temp=26.5
+```
+SNMP OK - Temp 26.5 C | Temp=26.5
+```
 
-##Nagios config##
+## Nagios config
 
 If everything went well, we can add our new host and service to Nagios:
 
-<?prettify lang=bsh?>
-    vi /etc/nagios/conf.d/tempberry.graze.com.cfg
+```bash
+vi /etc/nagios/conf.d/tempberry.graze.com.cfg
+```
 
-    define host {
-      use                     generic-host
-      host_name               tempberry.graze.com
-      address                 10.10.10.11
-      hostgroups     	      linux-servers,
-      alias                   netbotz-2.dunstable.graze.com
-      max_check_attempts      3
-      check_command           check-icmp
-      max_check_attempts      5
-    }
+```
+define host {
+  use                     generic-host
+  host_name               tempberry.graze.com
+  address                 10.10.10.11
+  hostgroups     	      linux-servers,
+  alias                   netbotz-2.dunstable.graze.com
+  max_check_attempts      3
+  check_command           check-icmp
+  max_check_attempts      5
+}
 
-    define service {
-      check_command           check_snmp!-o .1.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.4.1.2.5.116.104.101.114.109.1 -w 29 -c 30 -C cacti -l Temp -u C -t 20
-      host_name               tempberry.graze.com
-      use                     generic-service
-      service_description     Check Comms Room Temp
-      notifications_enabled   1
-      max_check_attempts      5
-    }
+define service {
+  check_command           check_snmp!-o .1.3.6.1.4.1.5528.100.4.1.1.1.8.1095346743.4.1.2.5.116.104.101.114.109.1 -w 29 -c 30 -C cacti -l Temp -u C -t 20
+  host_name               tempberry.graze.com
+  use                     generic-service
+  service_description     Check Comms Room Temp
+  notifications_enabled   1
+  max_check_attempts      5
+}
+```
 
 Check the syntax of the Nagios config:
 
-<?prettify lang=bsh?>
-    /usr/sbin/nagios3 -v /etc/nagios3/nagios.cfg
-
+```bash
+/usr/sbin/nagios3 -v /etc/nagios3/nagios.cfg
+```
 
 And if there is no error then reload the config:
 
-<?prettify lang=bsh?>
-    service nagios3 reload
+```bash
+service nagios3 reload
+```
 
-
-The total cost of this project was less than Â£50 so the future savings on our environmental monitoring infrastructure will be significant.
+The total cost of this project was less than £50 so the future savings on our environmental monitoring infrastructure will be significant.
 
 ![graze at SMR](/content/images/2014/Apr/tempberry-3.jpg)
 
-> by [Csaba Pacsko](https://github.com/csabapacsko)

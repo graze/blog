@@ -1,7 +1,7 @@
 ---
 title: "my first week in graze tech"
 date: 2014-06-03T11:58:08.000Z
-author: graze-tech
+author: sam-parkinson
 ---
 
 
@@ -32,8 +32,6 @@ I spent the first week working on two tasks, one on moving several event trackin
 The week also included a regular tech team monthly meeting, with a short presentation from each of the different departments (data, web, infrastructure, and devops) who provided great insight into the company's performance and what technology we might be using in the near future.
 
 If you have any questions about what it's like to start working for graze, or the application process, feel free to leave a comment below.
-
-> by [Sam Parkinson](https://github.com/sjparkinson)
 
 [1]: http://tech.graze.com/2014/01/08/behind-the-scenes-at-graze/
 [2]: https://graze.com/school

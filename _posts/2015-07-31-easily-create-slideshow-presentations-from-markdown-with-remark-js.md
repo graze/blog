@@ -1,7 +1,7 @@
 ---
 title: "Easily create slideshow presentations from markdown with remark.js"
 date: 2015-07-31T11:20:20.000Z
-author: graze-tech
+author: lee-jordan
 ---
 
 Remark.js is a web based slideshow with some great features that is comparable to powerpoint or google slides except you can write your presentations entirely in [markdown](http://daringfireball.net/projects/markdown/syntax). You can see a [demo of remark.js in action here](http://remarkjs.com/) and when checking it out, be sure to press ```p``` to see the incredibly useful presenter mode.
@@ -191,7 +191,4 @@ This will place the image in the bottom right corner of every slide. You can twe
 
 ## Conclusion
 This way of creating presentations has turned something that used to be a chore into a process that is as easy as writing any document and really allows you to focus entirely on what you want to say rather than how each individual slide looks. Give it a try!
-
-> by [Lee Jordan](https://github.com/leejordan)
-
 
