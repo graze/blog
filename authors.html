@@ -1,0 +1,27 @@
+---
+layout: default
+title: Authors
+---
+
+<section class="section">
+  <div class="container">
+    <div class="column is-8 is-offset-2">
+      <div class="card">
+        <div class="card-content has-text-centered">
+          <p class="title">{{ page.title }}</p>
+        </div>
+
+        <div class="card-content">
+          <div class="content">
+            <ul>
+              {% for author in site.authors %}
+              {% assign author_posts = site.posts | where: 'author', author.slug %}
+              <li><a href="{{ author.url | relative_url }}">{{ author.name }}</a> ({{ author_posts | size | pluralize: 'post' }})</li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
