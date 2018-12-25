@@ -1,5 +1,5 @@
 ---
-title: "composer, alternative repositories and numeric branch names"
+title: "Composer, alternative repositories and numeric branch names"
 date: 2015-09-28T15:01:06.000Z
 author: john-smith
 tags: [ php, composer ]

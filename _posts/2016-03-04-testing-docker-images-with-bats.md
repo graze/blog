@@ -1,5 +1,5 @@
 ---
-title: "testing docker images with bats"
+title: "Testing docker images with bats"
 date: 2016-03-04T17:22:03.000Z
 author: sam-parkinson
 tags: [ development, testing ]

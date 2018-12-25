@@ -1,5 +1,5 @@
 ---
-title: "playing jenga at recruitment fairs"
+title: "Playing jenga at recruitment fairs"
 date: 2013-11-17T00:00:00.000Z
 author: patrick-troughton
 tags: [ recruitment, silicon-milkroundabout, team-members ]

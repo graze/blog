@@ -1,5 +1,5 @@
 ---
-title: "introducing event"
+title: "Introducing event"
 date: 2013-05-15T10:00:00.000Z
 author: andrew-lawson
 tags: [ open-source, php ]

@@ -1,5 +1,5 @@
 ---
-title: "My First Week at graze"
+title: "My first week at graze"
 date: 2016-09-21T10:54:01.000Z
 author: james-weaver
 tags: [ team-members, first-week ]

@@ -1,5 +1,5 @@
 ---
-title: "supervising the unsupervisable"
+title: "Supervising the unsupervisable"
 date: 2014-06-17T10:29:12.000Z
 author: andrew-lawson
 tags: [ open-source, php ]

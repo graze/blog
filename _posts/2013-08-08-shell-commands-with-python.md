@@ -1,5 +1,5 @@
 ---
-title: "shell commands with python"
+title: "Shell commands with python"
 date: 2013-08-08T10:00:00.000Z
 author: mark-egan-fuller
 tags: [ open-source, python, shell ]

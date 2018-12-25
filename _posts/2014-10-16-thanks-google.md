@@ -1,5 +1,5 @@
 ---
-title: "a history of graze, by google"
+title: "A history of graze, by google"
 date: 2014-10-16T13:50:07.000Z
 author: graze-tech
 tags: [ history ]

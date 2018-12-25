@@ -1,5 +1,5 @@
 ---
-title: "our favourite animated gifs"
+title: "Our favourite animated gifs"
 date: 2014-04-11T13:41:40.000Z
 author: lee-jordan
 tags: [ gifs, funny ]

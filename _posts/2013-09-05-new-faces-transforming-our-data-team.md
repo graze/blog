@@ -1,5 +1,5 @@
 ---
-title: "new faces transforming our data team"
+title: "New faces transforming our data team"
 date: 2013-09-05T10:00:00.000Z
 author: tom-percival
 tags: [ team-members ]

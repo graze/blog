@@ -1,5 +1,5 @@
 ---
-title: "behind the scenes at graze"
+title: "Behind the scenes at graze"
 date: 2014-01-08T15:45:00.000Z
 author: patrick-troughton
 tags: [ recruitment ]

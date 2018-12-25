@@ -1,5 +1,5 @@
 ---
-title: "first iPhone 6 spotted at graze"
+title: "First iPhone 6 spotted at graze"
 date: 2014-09-25T07:47:58.000Z
 author: john-smith
 tags: [ funny ]

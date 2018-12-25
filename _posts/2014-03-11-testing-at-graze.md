@@ -1,5 +1,5 @@
 ---
-title: "testing at graze"
+title: "Testing at graze"
 date: 2014-03-11T11:39:00.000Z
 author: will-pillar
 tags: [ development, pull-requests, testing, unit-testing, phpunit, functional-testing, behat, ci ]

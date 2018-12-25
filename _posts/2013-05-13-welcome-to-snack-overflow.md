@@ -1,5 +1,5 @@
 ---
-title: "welcome to snack overflow"
+title: "Welcome to snack overflow"
 date: 2013-05-13T10:00:00.000Z
 author: tom-percival
 ---

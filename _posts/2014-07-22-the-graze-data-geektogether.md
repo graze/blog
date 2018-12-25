@@ -1,5 +1,5 @@
 ---
-title: "the graze data #geekTogether"
+title: "The graze data #geekTogether"
 date: 2014-07-22T15:09:59.000Z
 author: graze-tech
 tags: [ data ]

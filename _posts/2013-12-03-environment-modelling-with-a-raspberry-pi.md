@@ -1,5 +1,5 @@
 ---
-title: "environment modelling with a raspberry pi"
+title: "Environment modelling with a raspberry pi"
 date: 2013-12-03T15:50:00.000Z
 author: csaba-pacsko
 tags: [ raspberry-pi, nagios, snmp ]
