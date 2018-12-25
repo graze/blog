@@ -21,6 +21,20 @@ layout: default
           <div class="content">
             {{page.content}}
           </div>
+
+          <div class="card-footer">
+            {% if page.previous.url %}
+              <a class="card-footer-item" href="{{page.previous.url | relative_url}}">&laquo; {{page.previous.title}}</a>
+              {% else %}
+              <p class="card-footer-item"></p>
+              {% endif %}
+            {% if page.next.url %}
+              <a class="card-footer-item" href="{{page.next.url | relative_url}}">{{page.next.title}} &raquo;</a>
+              {% else %}
+              <p class="card-footer-item"></p>
+              {% endif %}
+          </div>
+
         </div>
       </div>
     </div>
