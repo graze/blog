@@ -45,7 +45,5 @@ Next up, connecting the whole thing up and seeing if it works. Then, assuming it
 
 Look out for the way more pretty PCBs in the next installment of *Box Former Counting Machine - A Graze Tech Blog Post*.
 
->by John
-
 [boxFormer]: /content/images/2014/12/box-former-1.jpg
 [prototype]: /content/images/2014/Aug/breadboard-1.jpg

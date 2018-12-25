@@ -1,7 +1,7 @@
 ---
 title: "User testing"
 date: 2015-03-15T09:42:00.000Z
-author: graze-tech
+author: euan-mackie
 tags: [ testing ]
 ---
 
@@ -36,10 +36,3 @@ Avoiding questions such as, _"do you think you're on the right page"_ or _"how e
 Using questions such as  _"what do you think is happening here"_ and _"what do you expect to see if you click there"_ allow the moderator to gather an understanding of what the user is thinking, giving valuable insight into how the feature could be improved.
 
 We use this questioning technique to form a framework and toolbox to conduct our testing. We try to guide the user in the most natural possible way to gather insight in what they did, how they felt, what they said and what they understood. This is important info that can help power empathetic design.
-
-
-> Euan Mackie
-
-
-
-
