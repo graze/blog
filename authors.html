@@ -16,7 +16,13 @@ title: Authors
             <ul>
               {% for author in site.authors %}
               {% assign author_posts = site.posts | where: 'author', author.slug %}
-              <li><a href="{{ author.url | relative_url }}">{{ author.name }}</a> ({{ author_posts | size | pluralize: 'post' }})</li>
+              {% assign num_posts = author_posts | size %}
+              {% if num_posts == 1 %}
+                {% assign post_noun = "post" %}
+              {% else %}
+              {% assign post_noun = 'posts' %}
+              {% endif %}
+              <li><a href="{{ author.url | relative_url }}">{{ author.name }}</a> ({{ num_posts }} {{ post_noun }})</li>
               {% endfor %}
             </ul>
           </div>

@@ -19,6 +19,3 @@ defaults:
       layout: "default"
 
 paginate: 10
-
-plugins:
-  - liquid_pluralize
