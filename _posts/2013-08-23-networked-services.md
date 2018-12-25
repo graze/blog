@@ -2,6 +2,7 @@
 title: "networked services"
 date: 2013-08-23T10:00:00.000Z
 author: andrew-lawson
+tags: [ architecture ]
 ---
 
 ## Services over a physical or virtual network interface

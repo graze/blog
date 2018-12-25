@@ -2,6 +2,7 @@
 title: "You've got to have standards"
 date: 2015-06-09T15:36:49.000Z
 author: lee-jordan
+tags: [ standards, best-practise ]
 ---
 
 > Browsers are the most hostile software development environment imaginable.

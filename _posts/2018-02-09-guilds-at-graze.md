@@ -1,7 +1,7 @@
 ---
 title: "Guilds at graze"
 author: burhan-ali
-tags: [guilds]
+tags: [ work-culture, guilds ]
 ---
 
 For a number of years now, the graze tech team has had guilds which were inspired by the [Spotify guild model](https://labs.spotify.com/2014/03/27/spotify-engineering-culture-part-1/ "Spotify engineering culture (part 1)"). Here is some information on what guilds are and how we use them.

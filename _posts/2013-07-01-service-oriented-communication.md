@@ -2,6 +2,7 @@
 title: "service oriented communication"
 date: 2013-07-01T10:00:00.000Z
 author: andrew-lawson
+tags: [ architecture, soa, rest, rpc ]
 ---
 
 ## Handling service interoperability

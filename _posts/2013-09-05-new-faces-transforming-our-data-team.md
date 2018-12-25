@@ -2,6 +2,7 @@
 title: "new faces transforming our data team"
 date: 2013-09-05T10:00:00.000Z
 author: tom-percival
+tags: [ team-members ]
 ---
 
 As the company's appetite for data analysis and insight increases at an astonishing rate we have been looking for really talented data scientists and analysts to join the team. As a result we have 2 new faces here who need an introduction.

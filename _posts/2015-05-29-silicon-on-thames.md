@@ -2,6 +2,7 @@
 title: "Silicon on Thames"
 date: 2015-05-29T08:37:53.000Z
 author: graze-tech
+tags: [ richmond ]
 ---
 
 Looks like the secret is out...

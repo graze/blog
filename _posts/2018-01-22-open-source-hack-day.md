@@ -1,7 +1,7 @@
 ---
 title: "Open Source hack day"
 author: burhan-ali
-tags: [hackday, open-source]
+tags: [ hackday, open-source ]
 ---
 
 At graze, developers are given the option to spend one day a month as hacker time to work on whatever project they like. Every couple of months we also do a hack day with the entire tech team. Sometimes these are collaborative efforts and sometimes they are competitive, such as one we did last year [in conjunction with Rackspace](https://tech.graze.com/post/aws-hack-day-with-rackspace "AWS Hack Day with Rackspace").
