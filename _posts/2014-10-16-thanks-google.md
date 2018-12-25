@@ -1,7 +1,8 @@
 ---
-title: "a history of graze, by google"
+title: "A history of graze, by google"
 date: 2014-10-16T13:50:07.000Z
 author: graze-tech
+tags: [ history ]
 ---
 
 Being the fast growth exciting technology company that we are, Google wanted to feature us as a case study for Apps for Work... who were we to argue? In doing so they helped us create this amazing infographic that shows some of the key tech landmarks in our history. Thanks Google!

@@ -1,8 +1,8 @@
 ---
-title: "testing at graze"
+title: "Testing at graze"
 date: 2014-03-11T11:39:00.000Z
-tags: [getting-started]
 author: will-pillar
+tags: [ development, pull-requests, testing, unit-testing, phpunit, functional-testing, behat, ci ]
 ---
 
 Inspired by AirBnB's [Testing at AirBnB](http://nerds.airbnb.com/testing-at-airbnb) article, I thought I would share some of what we do at graze to test our code before it makes it into production and what we're moving towards.

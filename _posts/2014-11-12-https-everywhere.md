@@ -1,5 +1,5 @@
 ---
-title: "secure snacking - switching to https everywhere"
+title: "Secure snacking - switching to https everywhere"
 date: 2014-11-12T09:59:31.000Z
 tags: [security]
 author: sam-parkinson

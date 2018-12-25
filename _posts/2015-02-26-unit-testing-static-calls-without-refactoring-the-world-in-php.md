@@ -1,8 +1,8 @@
 ---
 title: "Unit testing static calls without refactoring the world in PHP"
 date: 2015-02-26T12:16:38.000Z
-tags: [php, unit-testing, static-method]
 author: will-pillar
+tags: [development, php, unit-testing, static-method ]
 ---
 
 Imagine you have a situation like this in some legacy code:

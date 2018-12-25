@@ -1,7 +1,8 @@
 ---
-title: "the graze css framework"
+title: "The graze css framework"
 date: 2014-03-21T11:40:00.000Z
 author: lee-jordan
+tags: [ css, bootstrap ]
 ---
 
 In the graze web team we pride ourselves on being able to rapidly develop new features in response to our customer and business needs but that rapid pace of development has sometimes come with a bit of associated baggage.

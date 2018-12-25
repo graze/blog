@@ -1,7 +1,8 @@
 ---
-title: "counting electric sheep"
+title: "Counting electric sheep"
 date: 2014-12-19T14:32:02.000Z
 author: john-smith
+tags: [ open-source, c ]
 ---
 
 ![box former][boxformer]
@@ -43,8 +44,6 @@ With the above in mind, a small C program was written: **signalCounter**. If you
 Next up, connecting the whole thing up and seeing if it works. Then, assuming it does, getting some pretty PCBs printed and rolling them out to the all of our box forming machines.
 
 Look out for the way more pretty PCBs in the next installment of *Box Former Counting Machine - A Graze Tech Blog Post*.
-
->by John
 
 [boxFormer]: /content/images/2014/12/box-former-1.jpg
 [prototype]: /content/images/2014/Aug/breadboard-1.jpg

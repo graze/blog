@@ -1,7 +1,7 @@
 ---
 title: "Engineering careers at graze"
 author: andy-worsley
-tags: [careers]
+tags: [ careers ]
 ---
 
 Graze is a great place to develop as a professional. We're big on giving people responsibility and seeing how far they can go with it. Coupled with support through one-to-one meetings with your manager or mentor, this generally works pretty well. But as we grew, people started to tell us that sometimes it was difficult to see where or how they could progress next. And not every manager was totally clear either! So we thought it'd be a good idea to write down the things we value and try to show what we think progression looks like.

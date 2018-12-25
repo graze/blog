@@ -1,7 +1,8 @@
 ---
-title: "the graze data #geekTogether"
+title: "The graze data #geekTogether"
 date: 2014-07-22T15:09:59.000Z
 author: graze-tech
+tags: [ data ]
 ---
 
 Here at graze we are obsessed with continuously evolving, we use data in innovative ways to offer customers the best products and a unique customer experience. One of the data team's New Year's resolutions was to meet other like-minded data driven companies and learn how they use data to better understand the needs of their customers. We wanted to learn what data technologies they use and the role that data teams have within other companies. 

@@ -2,6 +2,7 @@
 title: "How to get yourself a job at Silicon Milkroundabout"
 date: 2014-11-14T13:47:12.000Z
 author: hannah-manku
+tags: [ recruitment, silicon-milkroundabout ]
 ---
 
 # A recruiter's tips

@@ -1,7 +1,8 @@
 ---
-title: "hacker time"
+title: "Hacker time"
 date: 2013-05-21T10:00:00.000Z
 author: tom-percival
+tags: [ work-culture ]
 ---
 
 ## Standing on the shoulders of giants
