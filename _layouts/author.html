@@ -11,6 +11,8 @@ layout: default
             <h1>{{ page.name }}</h1>
             {% if page.image %}
             <img src="{{ page.image | relative_url }}" alt="Picture of {{ page.name }}"></img>
+            {% else if page.github %}
+            {% avatar user=page.github size=256 %}
             {% endif %}
             {{ content }}
             <p class="buttons">
