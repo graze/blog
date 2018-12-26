@@ -1,7 +1,6 @@
 ---
 slug: will-pillar
 name: Will Pillar
-email: will.pillar@graze.com
 image: https://www.gravatar.com/avatar/d3da9bb9f70e05018371ad00d7804924?s=250&d=mm&r=x
 twitter: 
 ---

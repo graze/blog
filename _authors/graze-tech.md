@@ -1,7 +1,6 @@
 ---
 slug: graze-tech
 name: graze tech
-email: developers@graze.com
 image: /content/images/2014/Apr/g.jpg
 twitter: 
 ---
