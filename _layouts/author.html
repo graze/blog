@@ -3,31 +3,49 @@ layout: default
 ---
 
 <section class="section">
-    <div class="container">
-      <div class="column is-8 is-offset-2">
-        <div class="card">
-          <div class="card-content">
-            <div class="content">
-                <h1>{{ page.name }}</h1>
-                {% if page.image %}
-                <img src="{{ page.image | relative_url }}" alt="Picture of {{ page.name }}"></img>
-                {% endif %}
-                {{ content }}
-            </div>
+  <div class="container">
+    <div class="column is-8 is-offset-2">
+      <div class="card">
+        <div class="card-content">
+          <div class="content">
+            <h1>{{ page.name }}</h1>
+            {% if page.image %}
+            <img src="{{ page.image | relative_url }}" alt="Picture of {{ page.name }}"></img>
+            {% endif %}
+            {{ content }}
+            <p class="buttons">
+              {% if page.github %}
+              <a href="https://github.com/{{ page.github }}" class="button">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>GitHub</span>
+              </a>
+              {% endif %}
+              {% if page.twitter %}
+              <a href="https://twitter.com/{{ page.twitter }}" class="button">
+                <span class="icon">
+                  <i class="fab fa-twitter"></i>
+                </span>
+                <span>Twitter</span>
+              </a>
+              {% endif %}
+            </p>
           </div>
+        </div>
 
-          <div class="card-content">
-              <div class="content">
-                  <h2>Posts</h2>
-                  <ul>
-                    {% assign filtered_posts = site.posts | where: 'author', page.slug %}
-                    {% for post in filtered_posts %}
-                      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-                    {% endfor %}
-                  </ul>
-              </div>
+        <div class="card-content">
+          <div class="content">
+            <h2>Posts</h2>
+            <ul>
+              {% assign filtered_posts = site.posts | where: 'author', page.slug %}
+              {% for post in filtered_posts %}
+              <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+              {% endfor %}
+            </ul>
           </div>
         </div>
       </div>
     </div>
+  </div>
 </section>
