@@ -18,6 +18,11 @@ defaults:
     values:
       layout: "default"
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+
 paginate: 10
 
 plugins:
