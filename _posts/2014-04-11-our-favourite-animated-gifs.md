@@ -2,6 +2,7 @@
 title: "Our favourite animated gifs"
 date: 2014-04-11T13:41:40.000Z
 author: lee-jordan
+image: /content/images/2014/Apr/giphy.gif
 tags: [ gifs, funny ]
 ---
 

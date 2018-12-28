@@ -2,6 +2,7 @@
 title: "My first week at graze"
 date: 2017-11-14T10:36:35.000Z
 author: rokas-petraitis
+image: /content/images/2017/11/20171010_113958.jpg
 tags: [ team-members, first-week ]
 ---
 

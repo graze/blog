@@ -2,6 +2,7 @@
 title: "PHP London Meetup"
 date: 2015-08-07T15:33:05.000Z
 author: simon-plenderleith
+image: /content/images/2015/08/image2.JPG
 tags: [ php, meetup ]
 ---
 

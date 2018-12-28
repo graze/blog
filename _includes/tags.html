@@ -1,18 +1,18 @@
-{% comment %}
+{% comment -%}
   Handles both posts on the aggregated index page (post.tags) and the
   individual post page (page.tags).
-{% endcomment %}
-{% if post.tags %}
-  {% assign tags = post.tags %}
-{% else if page.tags %}
-  {% assign tags = page.tags %}
-{% endif %}
-{% if tags %}
+{% endcomment -%}
+{% if post.tags -%}
+  {% assign tags = post.tags -%}
+{% else if page.tags -%}
+  {% assign tags = page.tags -%}
+{% endif -%}
+{% if tags -%}
 <div class="card-content">
   <div class="tags">
-    {% for tag in tags %}
+    {% for tag in tags -%}
       <a href="{{ '/tags#' | append: tag | relative_url }}" class="tag is-link">{{tag}}</a>
-    {% endfor %}
+    {% endfor -%}
   </div>
 </div>
 {% endif %}

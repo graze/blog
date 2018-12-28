@@ -2,6 +2,7 @@
 title: "User testing"
 date: 2015-03-15T09:42:00.000Z
 author: euan-mackie
+image: /content/images/2015/03/Blog-Image-2.png
 tags: [ testing ]
 ---
 

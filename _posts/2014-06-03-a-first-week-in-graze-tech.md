@@ -2,6 +2,7 @@
 title: "My first week in graze tech"
 date: 2014-06-03T11:58:08.000Z
 author: sam-parkinson
+image: /content/images/2014/Jun/IMG_20140603_132302-compressor.jpg
 tags: [ team-members, first-week ]
 ---
 

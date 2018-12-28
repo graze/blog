@@ -2,6 +2,7 @@
 title: "Easily create slideshow presentations from markdown with remark.js"
 date: 2015-07-31T11:20:20.000Z
 author: lee-jordan
+image: /content/images/2015/07/Screen-Shot-2015-07-31-at-15-28-26.png
 tags: [ markdown ]
 ---
 
