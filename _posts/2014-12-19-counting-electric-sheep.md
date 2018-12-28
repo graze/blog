@@ -2,6 +2,7 @@
 title: "Counting electric sheep"
 date: 2014-12-19T14:32:02.000Z
 author: john-smith
+image: /content/images/2014/Aug/breadboard-1.jpg
 tags: [ open-source, c ]
 ---
 

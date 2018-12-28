@@ -2,6 +2,7 @@
 title: "Networked services"
 date: 2013-08-23T10:00:00.000Z
 author: andrew-lawson
+image: /content/images/2014/Apr/basic.gif
 tags: [ architecture ]
 ---
 

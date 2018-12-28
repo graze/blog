@@ -2,6 +2,7 @@
 title: "Playing jenga at recruitment fairs"
 date: 2013-11-17T00:00:00.000Z
 author: patrick-troughton
+image: /content/images/2014/Apr/graze-at-oxford.jpg
 tags: [ recruitment, silicon-milkroundabout, team-members ]
 ---
 

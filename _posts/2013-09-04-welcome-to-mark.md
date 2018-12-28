@@ -1,7 +1,8 @@
 ---
-title: "Welcome to mark"
+title: "Welcome to Mark"
 date: 2013-09-04T10:00:00.000Z
 author: tom-percival
+image: /content/images/2014/Apr/photo-mark.jpg
 tags: [ team-members, infrastructure, devops ]
 ---
 

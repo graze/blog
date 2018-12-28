@@ -2,6 +2,7 @@
 title: "The graze css framework"
 date: 2014-03-21T11:40:00.000Z
 author: lee-jordan
+image: /content/images/2014/Apr/graze-css.jpg
 tags: [ css, bootstrap ]
 ---
 

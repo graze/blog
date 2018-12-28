@@ -1,6 +1,7 @@
 ---
 title: "Engineering careers at graze"
 author: andy-worsley
+image: /content/images/2017/11/Engineering_Role_Rainbow.png
 tags: [ careers ]
 ---
 

@@ -2,6 +2,7 @@
 title: "Pistachio: From style guide to front end framework"
 date: 2016-08-12T13:45:00.000Z
 author: chris-bratt
+image: /content/images/2016/04/graze-com-order-recurring-box.jpg
 tags: [ pistachio, ux-design, ui-design, front-end ]
 ---
 

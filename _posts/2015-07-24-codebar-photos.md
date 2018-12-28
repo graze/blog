@@ -2,6 +2,7 @@
 title: "Codebar photos"
 date: 2015-07-24T15:51:34.000Z
 author: simon-plenderleith
+image: /content/images/2015/07/IMG_3723.JPG
 tags: [ codebar ]
 ---
 

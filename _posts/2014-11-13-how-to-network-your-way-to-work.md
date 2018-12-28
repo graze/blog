@@ -2,6 +2,7 @@
 title: "How to network your way to work"
 date: 2014-11-13T11:51:09.000Z
 author: razel-villanueva
+image: /content/images/2014/11/one-does-not-meme.jpg
 tags: [ recruitment, silicon-milkroundabout, careers ]
 ---
 
