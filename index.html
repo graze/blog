@@ -19,6 +19,9 @@ layout: default
 
         <div class="card-content">
           <div class="content">
+            {% if post.image %}
+            <img src="{{ post.image }}"><br>
+            {% endif %}
             {{ post.content | strip_html | truncatewords: 50 }}
           </div>
         </div>
