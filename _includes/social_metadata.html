@@ -1,7 +1,7 @@
 <!-- Social media preview metadata -->
 {%- if page.description -%}
   {% assign description = page.description %}
-{% elsif page.content %}
+{% elsif page.layout == "post" %}
   {% assign description = page.content | strip_html | lstrip | truncate: 150 %}
 {% else %}
   {% assign description = site.description %}
