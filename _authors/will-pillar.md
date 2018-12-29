@@ -6,4 +6,4 @@ twitter: willpillar
 github: wpillar
 ---
 
-Will is a Lead PHP Developer at graze. You can follow him on <a href="https://twitter.com/willpillar">Twitter</a>
+Will was formerly a Lead PHP Developer at graze.

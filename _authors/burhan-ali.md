@@ -6,4 +6,4 @@ twitter: biggianteye
 github: biggianteye
 ---
 
-Burhan is a Software Developer at graze working on back end services. You can follow him on <a href="https://twitter.com/biggianteye">twitter</a>.
+Burhan is a Software Developer at graze working on back end services.
