@@ -24,9 +24,11 @@ defaults:
       layout: "default"
 
 exclude:
+  - CNAME
   - Gemfile
   - Gemfile.lock
   - Makefile
+  - README.md
 
 paginate: 10
 
