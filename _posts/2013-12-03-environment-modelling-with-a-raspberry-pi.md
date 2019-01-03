@@ -2,7 +2,9 @@
 title: "Environment modelling with a raspberry pi"
 date: 2013-12-03T15:50:00.000Z
 author: csaba-pacsko
-image: /content/images/2014/Apr/tempberry-1.jpg
+image:
+  src: /content/images/2014/Apr/tempberry-1.jpg
+  alt: Picture of a Raspberry Pi
 tags: [ raspberry-pi, nagios, snmp ]
 ---
 
@@ -49,11 +51,11 @@ For the testing I used:
 
 Using these you don't need to solder anything, but the finished device won't be useable in real life because this setup is quite fragile.
 
-![graze at SMR](/content/images/2014/Apr/tempberry-1.jpg)
+![Picture of a Raspberry Pi](/content/images/2014/Apr/tempberry-1.jpg)
 
 Plug the GPIO cable to the Rasberry Pi GPIO interface and the other end to the middle of the breadboard. Connect the red wire of the sensor to the pin 1 of the GPIO (that pin is labeled with a "1" on the RPi, the pin 2 is the one next to it on the right hand side, the 3rd one is the one under pin 1, and so on), the black wire goes to the GND pin, which is pin 6, and the yellow/white data cable of the sensor to the first free GPIO data pin, which is pin 7 in our case. You need to plug the 4.7k resistor between pin 1 and pin 7 of the GPIO.
 
-![graze at SMR](/content/images/2014/Apr/tempberry-2.jpg)
+![Picture of a Raspberry Pi](/content/images/2014/Apr/tempberry-2.jpg)
 
 ## Software setup
 

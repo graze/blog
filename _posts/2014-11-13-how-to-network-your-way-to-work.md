@@ -2,7 +2,9 @@
 title: "How to network your way to work"
 date: 2014-11-13T11:51:09.000Z
 author: razel-villanueva
-image: /content/images/2014/11/one-does-not-meme.jpg
+image:
+  src: /content/images/2014/11/one-does-not-meme.jpg
+  alt: Meme of Boromir from Lord of the Rings saying 'One does not simply network at every event'
 tags: [ recruitment, silicon-milkroundabout, careers ]
 ---
 

@@ -2,7 +2,9 @@
 title: "Playing jenga at recruitment fairs"
 date: 2013-11-17T00:00:00.000Z
 author: patrick-troughton
-image: /content/images/2014/Apr/graze-at-oxford.jpg
+image:
+  src: /content/images/2014/Apr/graze-at-oxford.jpg
+  alt: Picture of graze staff talking to people in front of a wall of stacked boxes containing the graze logo
 tags: [ recruitment, silicon-milkroundabout, team-members ]
 ---
 

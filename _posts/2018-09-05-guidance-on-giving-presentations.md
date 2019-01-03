@@ -1,7 +1,9 @@
 ---
 title: "Guidance on giving presentations"
 author: burhan-ali
-image: /content/images/2018/09/meeple-presentation.png
+image:
+  src: /content/images/2018/09/meeple-presentation.png
+  alt: Cartoon of meeple in a presentation
 tags: [ presentations, snackademies ]
 ---
 

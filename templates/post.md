@@ -5,7 +5,9 @@ title: "Nuking it from orbit: The only way to be sure."
 author: ellen-ripley
 # Optional: Headline image for the post. This will appear in the post index
 # as well as in social media previews.
-image: /images/mushroom-cloud.png
+image:
+  src: /images/mushroom-cloud.png
+  alt: Mushroom cloud
 # Optional: Array of tag slugs. Each post should contain at least one tag.
 tags: [ nukes, problem-solving ]
 ---

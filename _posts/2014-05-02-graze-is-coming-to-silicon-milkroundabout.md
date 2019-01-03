@@ -2,7 +2,9 @@
 title: "graze is coming to silicon milkroundabout"
 date: 2014-05-02T08:59:18.000Z
 author: patrick-troughton
-image: /content/images/2014/May/big-sign.jpg
+image:
+  src: /content/images/2014/May/big-sign.jpg
+  alt: Picture of a giant logo
 tags: [ recruitment, silicon-milkroundabout ]
 ---
 

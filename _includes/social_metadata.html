@@ -14,7 +14,7 @@
 <meta name="twitter:title" content="{{ page.title | default: site.title}}">
 <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
 {% if page.image -%}
-<meta name="twitter:image:src" content="{{ site.url }}{{ page.image }}">
+<meta name="twitter:image:src" content="{{ site.url }}{{ page.image.src }}">
 {% endif -%}
 <meta name="twitter:description" content="{{ description }}">
 
@@ -23,7 +23,7 @@
 <meta property="og:title" content="{{ page.title | default: site.title}}">
 <meta property="og:url" content="{{ site.url }}{{ page.url }}">
 {% if page.image -%}
-<meta property="og:image" content="{{ site.url }}{{ page.image }}" />
+<meta property="og:image" content="{{ site.url }}{{ page.image.src }}" />
 {% endif -%}
 <meta property="og:description" content="{{ description }}">
 <meta property="og:type" content="website">

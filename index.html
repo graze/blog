@@ -20,7 +20,7 @@ layout: default
         <div class="card-content">
           <div class="content">
             {% if post.image -%}
-            <img src="{{ post.image }}">
+            <img src="{{ post.image.src }}" alt="{{ post.image.alt }}">
             <br>
             {% endif -%}
             <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
