@@ -2,7 +2,9 @@
 title: "The graze css framework"
 date: 2014-03-21T11:40:00.000Z
 author: lee-jordan
-image: /content/images/2014/Apr/graze-css.jpg
+image:
+  src: /content/images/2014/Apr/graze-css.jpg
+  alt: Example of a page built in the graze css framework
 tags: [ css, bootstrap ]
 ---
 

@@ -8,7 +8,7 @@ layout: default
     <div class="column is-8 is-offset-2">
       <div class="card">
         <div class="card-content has-text-centered">
-          <p class="title"><a href="{{post.url | relative_url }}">{{post.title}}</a></p>
+          <h1 class="title"><a href="{{post.url | relative_url }}">{{post.title}}</a></h1>
           <p class="subtitle is-6 article-subtitle">
             {% assign author = site.authors | where: 'slug', post.author | first -%}
             <a href="{{ '/authors/' | append: author.slug | relative_url }}">{{author.name}}</a> on {{ post.date | date: '%B %d, %Y' }}
@@ -20,7 +20,7 @@ layout: default
         <div class="card-content">
           <div class="content">
             {% if post.image -%}
-            <img src="{{ post.image }}">
+            <img src="{{ post.image.src }}" alt="{{ post.image.alt }}">
             <br>
             {% endif -%}
             <p>{{ post.content | strip_html | truncatewords: 50 }}</p>

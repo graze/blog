@@ -2,7 +2,9 @@
 title: "We're hiring!"
 date: 2016-09-26T14:12:39.000Z
 author: graze-tech
-image: /content/images/2016/09/palmcourt.jpg
+image:
+  src: /content/images/2016/09/palmcourt.jpg
+  alt: View of Palm Court from the riverside
 tags: [ recruitment ]
 ---
 

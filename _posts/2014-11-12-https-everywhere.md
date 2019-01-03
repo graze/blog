@@ -2,7 +2,9 @@
 title: "Secure snacking - switching to https everywhere"
 date: 2014-11-12T09:59:31.000Z
 tags: [security]
-image: https://d29heo999a0e0g.cloudfront.net/c6b4e3a5b09e9518f1c8a0efe59d56ce.png
+image:
+  src: https://d29heo999a0e0g.cloudfront.net/c6b4e3a5b09e9518f1c8a0efe59d56ce.png
+  alt: Browser address bar showing the graze website with https enabled
 author: sam-parkinson
 ---
 

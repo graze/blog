@@ -2,7 +2,9 @@
 title: "My first week at graze"
 date: 2016-09-21T10:54:01.000Z
 author: james-weaver
-image: /content/images/2016/09/img_9931_720-1.jpg
+image:
+  src: /content/images/2016/09/img_9931_720-1.jpg
+  alt: Picture of James standing in front of a grey wall, next to a graze logo
 tags: [ team-members, first-week ]
 ---
 

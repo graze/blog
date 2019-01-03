@@ -2,7 +2,9 @@
 title: "Welcome to Mark"
 date: 2013-09-04T10:00:00.000Z
 author: tom-percival
-image: /content/images/2014/Apr/photo-mark.jpg
+image:
+  src: /content/images/2014/Apr/photo-mark.jpg
+  alt: Picture of Mark peeking out from behind a monitor
 tags: [ team-members, infrastructure, devops ]
 ---
 

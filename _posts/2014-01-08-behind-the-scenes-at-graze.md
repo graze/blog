@@ -2,7 +2,9 @@
 title: "Behind the scenes at graze"
 date: 2014-01-08T15:45:00.000Z
 author: patrick-troughton
-image: https://cdn.graze.com/static/1389201021/images/graze/en/jobs/openDayBanner.jpg
+image:
+  src: https://cdn.graze.com/static/1389201021/images/graze/en/jobs/openDayBanner.jpg
+  alt: Banner from the graze website showing a subscription box and a variety of scattered ingredients
 tags: [ recruitment ]
 ---
 
