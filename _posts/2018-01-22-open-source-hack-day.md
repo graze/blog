@@ -1,4 +1,3 @@
-
 ---
 title: "Open Source hack day"
 author: burhan-ali
