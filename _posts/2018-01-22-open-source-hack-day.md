@@ -1,3 +1,4 @@
+
 ---
 title: "Open Source hack day"
 author: burhan-ali
@@ -16,7 +17,7 @@ There are already a number of issues in Github against our open source projects 
 
 ### Open sourcing internal tools
 
-We have a number of internal tools that we would like to open source. They just need a bit of TLC and some tweaking to conform to our [open source standards](https://github.com/graze/standards/blob/master/standards/OpenSource.md "The Open Source standards document in the graze/standards repository on github"). Some examples are:
+We have a number of internal tools that we would like to open source. They just need a bit of TLC and some tweaking to conform to our [open source standards](https://github.com/graze/standards/blob/master/docs/open-source/OpenSource.md "The Open Source standards document in the graze/standards repository on github"). Some examples are:
 
 * A tool for seeding databases with development data.
 * Our new React-based tech blog.
