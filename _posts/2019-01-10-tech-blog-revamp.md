@@ -1,10 +1,15 @@
 ---
 title: "Tech blog revamp"
 author: burhan-ali
+image:
+  src: /content/images/2019/blog-revamp-2019.png
+  alt: "Screenshot of blog index page"
 tags: [ blog, meta, github-pages, jekyll, open-source ]
 ---
 
 The graze tech blog has been around since [the middle of 2013](/2013/05/13/welcome-to-snack-overflow.html) and has lived on a couple of different platforms in that time. It has moved again and is now hosted on [github pages](https://pages.github.com/) and is powered by [Jekyll](https://jekyllrb.com) and [Bulma](https://bulma.io).
+
+![{{ page.image.alt}}]({{page.image.src}})
 
 ## Why?
 
