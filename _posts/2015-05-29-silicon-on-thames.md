@@ -2,6 +2,9 @@
 title: "Silicon on Thames"
 date: 2015-05-29T08:37:53.000Z
 author: graze-tech
+image:
+  src: https://static.standard.co.uk/s3fs-public/thumbnails/image/2015/05/28/17/Richmond.jpg?w968
+  alt: A view of Richmond Riverside - showing graze's HQ
 tags: [ richmond ]
 ---
 
@@ -13,4 +16,4 @@ Looks like the secret is out...
 
 You would be forgiven for thinking that the closest thing to an internet hit emanating from the leafy south-west London suburb of Richmond upon Thames was the 2011 viral video of a posh bloke trying to prevent his dog Fenton from chasing a massive pack of deer in Richmond Park.
 
-![A view of Richmond Riverside - showing graze's HQ](http://www.standard.co.uk/incoming/article10282581.ece/alternates/w620/Richmond.jpg)
+![{{ page.image.alt }}]({{ page.image.src }})
