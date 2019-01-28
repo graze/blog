@@ -25,4 +25,8 @@ The next thing during my first week was a tour of the graze factory in Hayes. I 
 
 ## Present day
 
-I’ve recently had my 30 day catch up with the People team to talk about how I've settled in at graze. Thinking about it, it seems like these 30 days have flown by. I’ve been given my first IT project to take charge of and I’m now dealing with various requests that graze users raise on a daily basis which I will try to resolve.  
+I’ve recently had my 30 day catch up with the People team to talk about how I've settled in at graze. Thinking about it, it seems like these 30 days have flown by.
+
+I’ve been given my first IT project to take charge of. I'll be changing BitLocker on all the Windows PCs so the TPM chip will allow the PC to start up automatically instead of the user having to enter a PIN every single time it turns on.
+
+In addition to this, I’m now dealing with various requests that graze users raise on a daily basis which I will try to resolve.
