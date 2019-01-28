@@ -1,7 +1,7 @@
 ---
 slug: james-weaver
 name: James Weaver
-image: /content/images/2017/06/img_9931_720-1-1.jpg
+image: /content/images/authors/james-weaver.jpg
 twitter: 
 github: james-weaver
 ---

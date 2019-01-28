@@ -1,7 +1,7 @@
 ---
 slug: graze-tech
 name: graze tech
-image: /content/images/2014/Apr/g.jpg
+image: /content/images/authors/graze-tech.jpg
 twitter: snack_overflow
 github: graze
 ---
