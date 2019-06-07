@@ -106,7 +106,8 @@ If we wanted to use Shopify we would need to find a different solution to managi
 As I mentioned previously we had invested much into our Magento 2 platform, so we would need some compelling reasons to justify the risk of migrating. But as you can see from our findings there were lots of positives to be found, and few drawbacks.
 
 Through our prototyping and research, we felt confident that integrating Shopify would be relatively straightforward, and that we would be able to offer customers most of the functionality we already had in place (either like-for-like or through alternatives).
-Our biggest concern was around the additional friction for subscription customers when checking out. However, we believed the vastly improved shopping experience would help to offset this, particularly on mobile devices that represent the majority of our traffic. We also felt confident in the tools that would be at our disposal to mitigate against drops in commercial performance; whether it be through apps, changes to CRM activity, UX/UI changes, or by introducing faster payment methods (e.g. Apply Pay, Google Pay).
+
+Our biggest concerns cantered around the additional friction we would be introducing for our  existing customers when checking out. However, we hoped the vastly improved shopping experience would help to offset this, particularly on mobile devices that represent the majority of our traffic. We also felt confident in the tools that would be at our disposal to mitigate against drops in commercial performance; whether it be through apps, changes to CRM activity, UX/UI changes, or by introducing faster payment methods (e.g. Apply Pay, Google Pay).
 
 ### What's next
 
