@@ -43,7 +43,7 @@ On paper, Shopify Plus seemed to be a good fit, particularly when we compared it
 
 - **Onboarding Experience** - The API documentation was clear and sensible, the admin interface seemed modern and easy to use.
 
-- **Extension Ecosystem** - Shopify has a vibrant App Store with lots of big names in there, not unlike the Magento Marketplace. But unlike Magento, these apps would be hosted and managed for us, freeing us from maintaing them.
+- **Extension Ecosystem** - Shopify has a vibrant App Store with lots of big names in there, not unlike the Magento Marketplace. But unlike Magento, these apps would be hosted and managed for us, freeing us from maintaining them.
 
 ### How we decided to move to Shopify Plus
 
