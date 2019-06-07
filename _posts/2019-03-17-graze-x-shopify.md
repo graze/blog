@@ -86,7 +86,7 @@ We compiled our findings into a high-level document to share with various stakeh
 - **Documentation** - Shopify API documentation is well maintained, and kept up to date. The Shopify forums however contain lots of outdated posts from many years ago (5+ years) that contain out of date information, making it hard to find
 
 - **Payment Gateways** - There are lots of payment gateway options available, including our existing payment providers (Adyen and Paypal). We also have the option of using [Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments)
- makes other payment method integrations (e.g. Amazon Pay, Apple Pay, Google Pay) available without any development work.
+,which makes other payment method integrations (e.g. Amazon Pay, Apple Pay, Google Pay) available without any development work.
 
 - **Product Management** - Shopify Product management is straightforward, with a sensible API and intuitive naming. However, when looking at ways to store the legally required nutritional data against a product (allergens, nutritional information, ingredients), our options were limited:
   - As part of the description - poor for managing, and editable by any merchandiser
