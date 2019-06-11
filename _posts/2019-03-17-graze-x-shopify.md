@@ -23,7 +23,7 @@ The decision to migrate away from Magento was significant for us. We have been M
 - **Performance** - We were never satisfied with the performance of our Magento shops, particularly on slower 3g/4g connections. We had two audits conducted by specialist Magento Agencies to identify performance improvements but we were only able to make incremental gains.
 
 - **Extension Ecosystem** - One of the selling points of Magento is its [extension marketplace](https://marketplace.magento.com/). We found the quality and support of extensions varied dramatically. We also found extensions did not always interact well with each other, often in frustratingly obscure ways.
-Testing (and sometimes patching) extensions were another thing to manage when performing Magento upgrades.
+Testing (and sometimes patching) extensions was another thing to manage when performing Magento upgrades.
 
 - **Onboarding Experience** - As the complexity of our site grew, so  did the time it took to onboard new developers and Magento users (e.g. Customer Services, CRM).
 
