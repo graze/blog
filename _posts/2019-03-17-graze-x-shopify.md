@@ -11,8 +11,7 @@ In January 2019 we completed the migration of our [UK shop](https://uk.graze.com
 
 The decision to migrate away from Magento was significant for us. We have been Magento users since launching our [beta graze shop](https://www.marketingweek.com/2015/11/19/graze-opens-up-to-non-subscribers-in-ecommerce-push-%E2%80%A8/) in late 2015. We invested heavily into our Magento shops, creating a seamless customer experience with our [subscription site](https://www.graze.com), and building the graze rewards scheme that rewarded customers for reaching certain subscription and shopping milestones.
 
-### Why did we consider migrating away from our [award winning](https://inviqa.com/blog/inviqa-recognised-magento-pioneering-graze-website) Magento shops?
-
+### Why did we consider migrating our award winning shops from Magento?
 
 - **Upgrades** - As a small team we found Magento upgrades to be incredibly disruptive. It was not uncommon for security fixes to be included with backward-incompatible changes. Upgrades could consume entire sprints, causing real disruption to our roadmap.
 
@@ -28,7 +27,6 @@ Testing (and sometimes patching) extensions was another thing to manage when per
 - **Onboarding Experience** - As the complexity of our site grew, so  did the time it took to onboard new developers and Magento users (e.g. Customer Services, CRM).
 
 ### Shopify
-
 
 [Shopify](https://www.shopify.co.uk) is a managed ecommerce platform with some 800,000 customers. The standard Shopify offering lacked some key features for us, most critically the ability to use accounts mastered on our graze subscription site. [Shopify Plus](https://www.shopify.co.uk/plus) is aimed at enterprise customers and offers the ease and simplicity of Shopify but with tools and features for enterprise customers.
 On paper, Shopify Plus seemed to be a good fit, particularly when we compared it to some of the sticking points we were having with Magento:
