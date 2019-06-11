@@ -94,7 +94,7 @@ We compiled our findings into a high-level document to share with various stakeh
 
 If we wanted to use Shopify we would need to find a different solution to managing product nutritional information.
 
-- **Single Sign On** - Single sign on would be possible using multipass and we still be able to master accounts on our subscription website. This would make things considerably less risky, as we would not need to migrate any customer data, part of the reason we could even consider this move is because we had chosen not to master customer data in Magento.
+- **Single Sign On** - Single sign on would be possible using multipass and we would still be able to master accounts on our subscription website. This would make things considerably less risky, as we would not need to migrate any customer data. Part of the reason we could even consider this move is because we had chosen not to master customer data in Magento.
 
 - **Theme Development** - Tools such as Shopify Slate make theme development pretty straightforward and provide a starter theme to get started quickly. There is also scope to build and host a custom frontend using the [storefront API](https://help.shopify.com/en/api/custom-storefronts/storefront-api) via graphQL.
 
